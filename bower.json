@@ -1,0 +1,20 @@
+{
+  "name": "kirkroberts",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Kirk Roberts <4321kirk@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^5.0.0"
+  }
+}

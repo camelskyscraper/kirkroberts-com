@@ -1,0 +1,84 @@
+
+/* "system" is defined in https://cdn.rawgit.com/jonathantneal/system-font-css/gh-pages/system-font.css */
+
+html {
+  background: #fffff5;
+  padding: 0 0 2em;
+}
+body {
+  font-family: "system";
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  line-height: 1.5;
+  color: #584931;
+}
+
+.site-width {
+  margin: 0 auto;
+  max-width: 42em;
+  padding: 0 5%;
+}
+
+h1 {
+  color: #9c3c3c;
+  font-weight: 500;
+  margin: 4em 0 1em;
+}
+h2 {
+  color: #795822;
+  font-weight: 500;
+  margin: 1.5em 0 1em;
+  line-height: 1.3;
+}
+h3 {
+  border-bottom: 1px solid #b9a5a5;
+  color: #731e1e;
+  font-weight: 500;
+  margin: 1.5em 0 0.5em;
+}
+
+li {
+  margin: 0 0 .4em;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+a {
+  color: #f00;
+}
+
+figure {
+  display: table;
+  margin: 0;
+  /* width: 1px; */
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+.multiply {
+  mix-blend-mode: multiply;
+}
+
+@media (min-width:520px) {
+  figure {
+    text-align: left;
+  }
+  figure img,
+  figcaption {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  img {
+    max-width: none;
+    height: auto;
+  }
+}
