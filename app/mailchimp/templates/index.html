@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mailchimp Templates</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html,
+    body {
+      margin: 0;
+      height: 100%;
+    }
+    body {
+      /* padding-top: 1vh; */
+    }
+    #toolbar {
+      background: #666;
+      color: #ddd;
+      font-family: arial, _sans-serif;
+      font-size:  1.5vh;
+      height: 4vh;
+      line-height: 4vh;
+      padding-left: 1vh;
+      position: relative;
+    }
+    #buttons {
+      float: right;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .button {
+      background: #999;
+      color: #333;
+      display: block;
+      float: left;
+      height: 4vh;
+      text-decoration: none;
+      text-align: center;
+      transition: .3s background-color;
+      width: 4vh;
+    }
+    .button + .button {
+      border-left: 1px solid #666;
+    }
+    .button.recede {
+      background: #777;
+    }
+    .button:hover,
+    .button.recede:hover {
+      background: #bbb;
+    }
+    iframe {
+      border: 0;
+      display: block;
+      width: 100vw;
+      height: 96vh;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+    .invisible {
+      opacity: 0;
+    }
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn .2s ease-in 1 forwards;
+    }
+    .is-paused {
+      animation-play-state: paused;
+    }
+
+    @media (max-width: 400px) {
+      #title {
+        display: none;
+      }
+    }
+  </style>
+  <script type="text/javascript">
+
+      var views = [
+        {
+          url: 'email-blueprints-master/responsive-templates/base_boxed_2column_query.html',
+          title: 'Responsive: Two columns'
+        },
+        {
+          url: 'email-blueprints-master/responsive-templates/base_boxed_3column_query.html',
+          title: 'Responsive: Three columns'
+        },
+        {
+          url: 'email-blueprints-master/responsive-templates/base_boxed_basic_2column_query.html',
+          title: 'Responsive: Two columns (basic)'
+        },
+        {
+          url: 'email-blueprints-master/responsive-templates/base_boxed_basic_body_image_query.html',
+          title: 'Responsive: Basic body image'
+        },
+        {
+          url: 'email-blueprints-master/responsive-templates/base_boxed_basic_query.html',
+          title: 'Basic'
+        },
+        {
+          url: 'email-blueprints-master/responsive-templates/base_boxed_body_image_2column_query.html',
+          title: 'Responsive: Body image + Two columns'
+        }
+      ];
+
+      clampcurrent = function() {
+        if (current >= total) current = 0;
+        if (current < 0) current = total -1;
+      };
+
+      updateview = function() {
+        var view = views[current];
+
+        var text = document.getElementById("text");
+        text.classList.remove('fade-in');
+        text.classList.add('invisible');
+
+        var progress = document.getElementById("progress");
+        progress.textContent = (current + 1) + " / " + total;
+
+        var title = document.getElementById("title");
+        title.textContent = ": " + view.title;
+
+        var frame = document.getElementById("frame");
+        frame.src = view.url;
+
+        window.location.hash = current;
+
+        setTimeout(function(){
+          text.classList.remove('invisible');
+          text.classList.add('fade-in');
+        }, 100);
+      };
+
+      updatemodel = function(direction) {
+        current += direction;
+        clampcurrent();
+        updateview();
+      };
+
+      var current = 0;
+      if(window.location.hash) {
+        current = parseInt(window.location.hash.substr(1));
+        clampcurrent();
+        console.log(current);
+      }
+      var total = views.length;
+
+      window.onload = function() {
+
+        var next = document.getElementById("next");
+        next.onclick = function() {
+          updatemodel(1);
+          return false;
+        };
+
+        var previous = document.getElementById("previous");
+        previous.onclick = function() {
+          updatemodel(-1);
+          return false;
+        };
+
+        updateview();
+      };
+
+    </script>
+</head>
+<body>
+  <div id="toolbar">
+    <div id="text">
+      <span id="progress"></span>
+      <span id="title"></span>
+    </div>
+    <div id="buttons">
+      <a class="button" id="previous" href="#">&lt;</a>
+      <a class="button" id="next" href="#">&gt;</a>
+      <a class="button recede" href="https://inspiration.mailchimp.com" target="_blank">+</a>
+    </div>
+  </div>
+  <iframe id="frame" src=""></iframe>
+</body>
+</html>
