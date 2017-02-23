@@ -45,7 +45,11 @@ b, strong {
 }
 
 a {
-  color: #f00;
+  color: #d24040;
+  transition: .3s color;
+}
+a:hover {
+  color: #dc6a6a;
 }
 
 figure {
