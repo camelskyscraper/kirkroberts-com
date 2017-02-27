@@ -330,7 +330,7 @@ AddDefaultCharset utf-8
     # Options +SymLinksIfOwnerMatch
 
     # (4)
-    # RewriteBase /
+    RewriteBase /
 
     # (5)
     # RewriteOptions <options>
@@ -400,6 +400,30 @@ AddDefaultCharset utf-8
 #     RewriteCond %{SERVER_ADDR} !=::1
 #     RewriteRule ^ %{ENV:PROTO}://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # </IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+#
+# let's rewrite .html and index.html
+#
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # RewriteRule ^(.+)\.html$ $1 [L]
+    RewriteRule ^(.*)index(\.html)?$ $1 [R=301,L]
+    # RewriteRule ^(.*)\.html$ $1 [R=301,L]
+    #example.com/page will display the contents of example.com/page.html
+
+    RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+    RewriteRule ^ /%1 [NC,L,R=301]
+
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+</IfModule>
 
 
 # ######################################################################

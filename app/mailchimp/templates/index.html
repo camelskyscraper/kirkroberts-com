@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Mailchimp Templates</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
   <style>
     html,
     body {
@@ -29,26 +30,36 @@
       right: 0;
       top: 0;
     }
-    .button {
+    .button,
+    .list-header {
       background: #999;
+      box-sizing: border-box;
       color: #333;
       display: block;
       float: left;
       height: 4vh;
+      padding: 0 1vh;
       text-decoration: none;
       text-align: center;
       transition: .3s background-color;
-      width: 4vh;
+      min-width: 4vh;
     }
-    .button + .button {
+    .button + .button,
+    .button + .has-subnav {
       border-left: 1px solid #666;
     }
     .button.recede {
-      background: #777;
+      background: #888;
     }
     .button:hover,
     .button.recede:hover {
       background: #bbb;
+    }
+    .arrow {
+      font-weight: bold;
+    }
+    .list-header {
+
     }
     iframe {
       border: 0;
@@ -56,7 +67,26 @@
       width: 100vw;
       height: 96vh;
     }
-
+    .has-subnav {
+      float: left;
+    }
+    .subnav {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 4vh;
+      width: 100vw;
+    }
+    .has-subnav:hover .subnav {
+      display: block;
+    }
+    .subnav .button {
+      border: 0;
+      border-top: 1px solid #666;
+      clear: right;
+      float: right;
+      width: auto;
+    }
     @keyframes fadeIn {
       to {
         opacity: 1;
@@ -82,6 +112,10 @@
   <script type="text/javascript">
 
       var views = [
+        {
+          url: 'email-blueprints-master/modular-template-patterns/modular-template-patterns.html',
+          title: 'Modular template patterns'
+        },
         {
           url: 'email-blueprints-master/responsive-templates/base_boxed_2column_query.html',
           title: 'Responsive: Two columns'
@@ -177,9 +211,18 @@
       <span id="title"></span>
     </div>
     <div id="buttons">
-      <a class="button" id="previous" href="#">&lt;</a>
-      <a class="button" id="next" href="#">&gt;</a>
-      <a class="button recede" href="https://inspiration.mailchimp.com" target="_blank">+</a>
+      <a class="arrow button" id="previous" href="#">&larr;</a>
+      <a class="arrow button" id="next" href="#">&rarr;</a>
+      <div class="has-subnav">
+        <span class="button recede">&hellip;</span>
+        <div class="subnav">
+          <a class="button recede" href="https://mailchimp.com/features/email-templates/" target="_blank">Template types</a>
+          <a class="button recede" href="http://us14.campaign-archive1.com/?u=b90873da582c64950d551a7d1&id=9b8d56d0ff&e=b3f681b84f" target="_blank">Drag+drop output example</a>
+          <a class="button recede" href="https://inspiration.mailchimp.com" target="_blank">Inspiration</a>
+          <a class="button recede" href="https://templates.mailchimp.com/design/" target="_blank">Detailed design guide</a>
+          <a class="button recede" href="https://mailchimp.com/resources/email-design-guide/" target="_blank">Quick basics design guide</a>
+        </div>
+      </div>
     </div>
   </div>
   <iframe id="frame" src=""></iframe>
