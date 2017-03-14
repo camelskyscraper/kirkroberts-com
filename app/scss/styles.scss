@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  background: #fff;
+  padding: 0 0 2em;
+}
+
+body {
+  color: #000;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.site-width {
+  margin: 0 auto;
+  padding: 0 5%;
+  max-width: 80em;
+}
+
+.narrow-site-width {
+  margin: 0 auto;
+  padding: 0 5%;
+  max-width: 48em;
+}
+
+.reversed {
+  background: #000;
+  color: #fff;
+}
+
+.spaced {
+  padding: 2em 0;
+}
+
+.banner {
+  *:first-child {
+    margin-top: 1em;
+  }
+
+  *:last-child {
+    margin-bottom: 1em;
+  }
+}
+
+.hero-image {
+  max-width: 80%;
+  position: relative;
+  left: -2px;
+}
+
+.site-header {
+  padding: 4em 0;
+}
+
+.site-footer {
+  margin: 14em 0 3em;
+}
+
+.col-1-5 {
+  display: inline-block;
+  width: 50%;
+
+  @media (min-width: 700px) {
+    width: 33%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 20%;
+  }
+}
+
+
+.callout {
+  padding: 0 10% 10%;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.6;
+  // margin: 0 0 1em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 3em 0 1em;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 3em 0 1em;
+  text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 1.7em;
+    line-height: 1.7;
+  }
+  h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 3em 0 1em;
+    line-height: 1.5;
+  }
+  h3 {
+    font-size: 1.3em;
+    line-height: 1.5;
+  }
+}
+
+p {
+  margin: 1em 0 2em;
+}
+
+li {
+  margin: 0 0 .4em;
+}
+
+b, strong {
+  font-weight: 700;
+  background: #ff0;
+  color: #000;
+}
+.reversed b,
+.reversed strong {
+  // background: #fff;
+  // color: #000;
+}
+
+a {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+a:hover {
+  background: #0a9e0e;
+  text-decoration: none;
+}
+.reversed a {
+  background: #fff;
+  color: #000;
+}
+
+figure {
+  display: table;
+  margin: 0;
+  /* width: 1px; */
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 0 0 1em;
+}
+ul li b {
+  // display: block;
+}
+

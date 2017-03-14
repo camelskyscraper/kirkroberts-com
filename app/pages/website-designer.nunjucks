@@ -1,31 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Kirk Roberts | Can-do Website Collaboration</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% extends "layout.nunjucks" %}
 
-    <meta name="description" content="">
+{% set pageTitle = "Kirk Roberts | Can-do Website Collaboration" %}
 
-    <!-- build:css css/styles.min.css -->
-    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- endbuild -->
+{% set pageDescription = "" %}
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=eEabyKvxak">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=eEabyKvxak" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=eEabyKvxak" sizes="16x16">
-    <link rel="manifest" href="/manifest.json?v=eEabyKvxak">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=eEabyKvxak" color="#ff8a00">
-    <link rel="shortcut icon" href="/favicon.ico?v=eEabyKvxak">
-    <meta name="apple-mobile-web-app-title" content="Kirk Roberts">
-    <meta name="application-name" content="Kirk Roberts">
-    <meta name="theme-color" content="#ffffff">
-
-  </head>
-  <body>
-
-    
+{% block content %}
 
     <div class="reversed spaced banner">
       <div class="narrow-site-width">
@@ -69,24 +48,6 @@
       <p><i>Kirk Roberts</i></p>
     </div>
 
-    <div class="spaced">
-  <div class="narrow-site-width">
-    <figure>
-      <img class="multiply" src="images/me.png" alt="" width="300" height="450">
-      <figcaption>This is me. I am about this slender and my head is about that big. I&rsquo;ve been told I have a long torso. Sometimes I have&nbsp;a&nbsp;beard.</figcaption>
-    </figure>
-  </div>
-</div>
+    {% include "partials/self-portrait.nunjucks" %}
 
-
-
-
-    <footer class="site-footer">
-      <img src="images/robotLove.png" width="100" alt="">
-    </footer>
-
-    <!-- build:js js/main.min.js -->
-    <!-- endbuild -->
-
-  </body>
-</html>
+{% endblock %}

@@ -1,31 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Kirk Roberts | Can-do Website Collaboration</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% extends "layout.nunjucks" %}
 
-    <meta name="description" content="You need a smart website. My goal is to make creating (and maintaining) that website straight-forward, effective, and delightful.">
+{% set pageTitle = "Kirk Roberts | Can-do Website Collaboration" %}
 
-    <!-- build:css css/styles.min.css -->
-    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- endbuild -->
+{% set pageDescription = "You need a smart website. My goal is to make creating (and maintaining) that website straight-forward, effective, and delightful." %}
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=eEabyKvxak">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=eEabyKvxak" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=eEabyKvxak" sizes="16x16">
-    <link rel="manifest" href="/manifest.json?v=eEabyKvxak">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=eEabyKvxak" color="#ff8a00">
-    <link rel="shortcut icon" href="/favicon.ico?v=eEabyKvxak">
-    <meta name="apple-mobile-web-app-title" content="Kirk Roberts">
-    <meta name="application-name" content="Kirk Roberts">
-    <meta name="theme-color" content="#ffffff">
-
-  </head>
-  <body>
-
-    
+{% block content %}
 
   <header class="narrow-site-width site-header">
     <img class="hero-image" src="images/youMeWebsiteBliss.png" alt="You + Me = Website Bliss">
@@ -147,31 +126,8 @@
     <p><i>Kirk Roberts</i></p>
   </div>
 
-  <div class="spaced">
-  <div class="narrow-site-width">
-    <figure>
-      <img class="multiply" src="images/me.png" alt="" width="300" height="450">
-      <figcaption>This is me. I am about this slender and my head is about that big. I&rsquo;ve been told I have a long torso. Sometimes I have&nbsp;a&nbsp;beard.</figcaption>
-    </figure>
-  </div>
-</div>
+  {% include "partials/self-portrait.nunjucks" %}
 
+  {% include "partials/pre-footer-mailing-list.nunjucks" %}
 
-  <div class="narrow-site-width">
-  <div class="spaced">
-    <p>p.s. &mdash; if you made it this far, maybe you want to <a href="http://eepurl.com/cD08Yr">sign up for my mailing list</a>? It isn&rsquo;t really a newsletter. Click the link to find out more.</p>
-  </div>
-</div>
-
-
-
-
-    <footer class="site-footer">
-      <img src="images/robotLove.png" width="100" alt="">
-    </footer>
-
-    <!-- build:js js/main.min.js -->
-    <!-- endbuild -->
-
-  </body>
-</html>
+{% endblock %}

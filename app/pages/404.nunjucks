@@ -1,0 +1,19 @@
+{% extends "layout.nunjucks" %}
+
+{% set pageTitle = "Kirk Roberts | Page Not Found (404)" %}
+
+{% set pageDescription = "" %}
+
+{% block content %}
+
+    <div class="site-width">
+
+      <h1>Whoopsee-doodle!</h1>
+      <h2>The address in your browser&rsquo;s address bar didn&rsquo;t result in a page.</h2>
+      <p>So you get this &ldquo;Page not found&rdquo; page instead.</p>
+
+      <p>Perhaps you&rsquo;d like to <a href="/">visit the home page</a> instead?</p>
+
+    </div>
+
+{% endblock %}
