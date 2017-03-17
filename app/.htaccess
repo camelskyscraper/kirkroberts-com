@@ -408,6 +408,14 @@ AddDefaultCharset utf-8
     RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
 </IfModule>
 
+# page rewrites
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # RewriteRule ^(.+)\.html$ $1 [L]
+    RewriteRule ^website-designer(\.html)?$ / [R=302,L]
+</IfModule>
+
 #
 # let's rewrite .html and index.html
 #

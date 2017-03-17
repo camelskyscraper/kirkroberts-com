@@ -113,16 +113,19 @@ h3 {
   body {
     font-size: 16px;
   }
+
   h1 {
     font-size: 1.7em;
     line-height: 1.7;
   }
+
   h2 {
     font-size: 1.5em;
     font-weight: 500;
     margin: 3em 0 1em;
     line-height: 1.5;
   }
+
   h3 {
     font-size: 1.3em;
     line-height: 1.5;
@@ -142,6 +145,7 @@ b, strong {
   background: #ff0;
   color: #000;
 }
+
 .reversed b,
 .reversed strong {
   // background: #fff;
@@ -153,14 +157,22 @@ a {
   color: #fff;
   cursor: pointer;
   text-decoration: underline;
+
+  &:hover {
+    background: #0a9e0e;
+    text-decoration: none;
+  }
 }
-a:hover {
-  background: #0a9e0e;
-  text-decoration: none;
-}
+
 .reversed a {
   background: #fff;
   color: #000;
+
+  &:hover {
+    background: #0a9e0e;
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 figure {
@@ -183,10 +195,11 @@ ul {
   list-style: none;
   padding: 0;
 }
+
 ul li {
   margin: 0 0 1em;
 }
+
 ul li b {
   // display: block;
 }
-

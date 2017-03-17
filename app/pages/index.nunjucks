@@ -7,7 +7,7 @@
 {% block content %}
 
   <header class="narrow-site-width site-header">
-    <img class="hero-image" src="images/youMeWebsiteBliss.png" alt="You + Me = Website Bliss">
+    <img class="hero-image" src="images/youMeWebsiteBliss.png" alt="You + Me = Website Bliss" width="1226" height="894">
   </header>
 
   <div class="reversed spaced">
@@ -20,7 +20,7 @@
     <h2>I collaborate with two types of people (all otherwise unique, of course):</h2>
     <ol>
       <li><b>Design principals</b>, creating websites for their clients — usually as a technician/coder</li>
-      <li><b>Business owners</b>, creating a website for their own business — usually as a consultant/designer/just-make-it-be-awesome person</li>
+      <li><b>Business owners</b>, creating a website for their business — usually as a consultant/designer/just-make-it-be-awesome person</li>
     </ol>
   </div>
 
@@ -101,9 +101,11 @@
       <li><b>Process consultant</b>: how can we structure our web project process to make it better for&nbsp;everyone?</li>
       <li><b>Design extrapolator</b>: you don&rsquo;t have to create a bajillion mockups. I can fill in the gaps if&nbsp;wanted.</li>
       <li><b>Front-end developer</b>: creating all the html/CSS/JavaScript to make the website function beautifully in&nbsp;a&nbsp;browser.</li>
+      <li><b>Design/brand/messaging oversight</b>: helping to ensure an appropriate and consistent tone in look, content, and behaviors.</li>
       <li><b>Third-party tools integrator</b>: add ecommerce, email lists, e-whatever using appropriate&nbsp;services.</li>
-      <li><b>CMS integrator</b>: hook the website up to a browser-based content management&nbsp;system.</li>
-      <li><b>CMS trainer</b>: provide custom videos and documentation to help the client get up to speed with&nbsp;the&nbsp;CMS.</li>
+      <li><b>General technician</b>: handling domain pointing and other behind-the-scenes string-pulling.</li>
+      <li><b>CMS integrator</b>: enable site updates through a quality browser-based content management&nbsp;system.</li>
+      <li><b>CMS trainer</b>: provide custom videos and documentation to help anyone get up to speed with&nbsp;the&nbsp;CMS.</li>
     </ul>
 
     <h3>Background</h3>

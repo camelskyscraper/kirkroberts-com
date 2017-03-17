@@ -10,3 +10,12 @@ gulp.task('build', function(callback) {
     callback
     );
 });
+
+gulp.task('build:text', function(callback) {
+  runSequence(
+    ['sprites', 'lint:js', 'lint:scss'],
+    ['sass', 'nunjucks'],
+    ['useref'],
+    callback
+    );
+});
