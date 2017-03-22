@@ -29,11 +29,46 @@
   </div>
 
   <div class="site-width">
-    <div class="col-1-5"><div class="callout"><figure><img src="images/robot.png" alt=""><figcaption>Code + Technical Skills</figcaption></figure></div></div><!--
-     --><div class="col-1-5"><div class="callout"><figure><img src="images/palette.png" alt=""><figcaption>Design + Messaging Awareness</figcaption></figure></div></div><!--
-     --><div class="col-1-5"><div class="callout"><figure><img src="images/checklist.png" alt=""><figcaption>Organization Skills</figcaption></figure></div></div><!--
-     --><div class="col-1-5"><div class="callout"><figure><img src="images/minds.png" alt=""><figcaption>Communication Skills</figcaption></figure></div></div><!--
-     --><div class="col-1-5"><div class="callout"><figure><img src="images/sun.png" alt=""><figcaption>Sense of Humor</figcaption></figure></div></div>
+    <div class="col-1-5">
+      <div class="callout">
+        <figure>
+          <img src="images/robot.png" alt="Illustration of robot">
+          <figcaption>Code + Technical Skills</figcaption>
+        </figure>
+      </div>
+    </div><!--
+    --><div class="col-1-5">
+      <div class="callout">
+        <figure>
+          <img src="images/palette.png" alt="Illustration of painter's palette">
+          <figcaption>Design + Messaging Awareness</figcaption>
+        </figure>
+      </div>
+    </div><!--
+    --><div class="col-1-5">
+      <div class="callout">
+        <figure>
+          <img src="images/checklist.png" alt="Illustration of to-do checklist">
+          <figcaption>Organization Skills</figcaption>
+        </figure>
+      </div>
+    </div><!--
+    --><div class="col-1-5">
+      <div class="callout">
+        <figure>
+          <img src="images/minds.png" alt="Illustration of two heads sharing thoughts">
+          <figcaption>Communication Skills</figcaption>
+        </figure>
+      </div>
+    </div><!--
+    --><div class="col-1-5">
+      <div class="callout">
+        <figure>
+          <img src="images/sun.png" alt="Illustration of the Sun">
+          <figcaption>Sense of Humor</figcaption>
+        </figure>
+      </div>
+    </div>
   </div>
 
   <div class="narrow-site-width">
