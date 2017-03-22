@@ -1,0 +1,86 @@
+{% extends "layout.nunjucks" %}
+{% set pageTitle = "CMS Guide | Kirk Roberts | Can-do Website Collaboration" %}
+{% set pageDescription = "" %}
+{% block content %}
+  <div class="reversed spaced">
+    <div class="narrow-site-width">
+      <h1>CMS Guide</h1>
+      <h2>My takes on content management systems</h2>
+    </div>
+  </div>
+  <div class="narrow-site-width left-text">
+    <h2>The Most Important Things to Remember</h2>
+    <ul>
+      <li><b>Ease of use is the highest priority.</b> A CMS should be easy for a non-technical, non-designer person to use. If a CMS is not easy to use it is less likely to be used. And if a CMS is not used it has no reason for existing. Therefore the top priority should be ease of use, even at the expense of features. It doesn’t matter what a CMS’s market share is or how many plug-ins are available if you avoid using it and your website gets stale.</li>
+      <li><b>Content management is not a commodity.</b> The system itself can make tasks easier or harder. The implementation by the developer can make tasks easier or harder. The system used and the skill and care of the developer can have a big impact on the long-term success of the website.</li>
+      <li><b>Ubiquity does not necessarily equate to appropriateness.</b> The household names of the CMS world have been around for a long time and are “free” to use, but does that make them right for you and your website? </li>
+      <li><b>Beware feature creep.</b> You may know the situation: you need a widget, and widget A checks all the boxes but widget B also has some feature(s) you hadn’t heard of before but suddenly need (right now!) or think might be handy “someday.” Remember: with flexibility comes complexity. The more “features” that get added on, the less likely you’ll be able to effectively and efficiently use the core features you wanted in the first place. Put another way: unused features are clutter.</li>
+    </ul>
+    <h2>What I Use and Recommend</h2>
+    <p>The big question for me is: <b>“what would I want to use if I were the website owner or editor?”</b></p>
+    <h3>Custom Builds</h3>
+    <p>When building custom-designed marketing sites (with or without basic application-like functionality), I use and recommend <a href="https://craftcms.com/">Craft</a> and <a href="https://grabaperch.com/">Perch</a>. They both are:</p>
+    <ul class="bullets">
+      <li>designed from the ground up for general usage</li>
+      <li>built around custom fields, the #1 key component to creating an easy editing experience</li>
+      <li>flexible, powerful, nimble, and stable</li>
+      <li>licensed products, helping ensure long-term viability</li>
+      <li>developed by a small team, helping avoid code and feature bloat</li>
+    </ul>
+    <p>I think of <b>Craft</b> as the enterprise-level workhorse for projects with substantial needs and a budget to match. The control panel is silky smooth, asset management is fantastic, and extensive user management and internationalization features are built right in. Live Preview is a killer feature that shows content edits in real-time as you make them. <i>Potential cons of Craft: initial setup of the site can be time-intensive — everything is custom; the first-party commerce solution has a hefty one-time license fee.</i></p>
+    <p><b>Perch</b> is generally better suited to smaller and simpler (and lower investment) projects, although it can handle larger and more complex projects as well (with or without the upgrade to big sibling Perch Runway). Don’t let the minimal appearance fool you: this is a well-oiled and highly-capable machine built for speed. It also has a raft of first-party apps for common features such as a blog, commerce, events, members, forms, etc. <i>Potential cons of Perch: a third-party service is required if clients want to create forms themselves.</i> </p>
+    <h3>Online Site-builder</h3>
+    <p>In some cases a templated site-builder CMS is best for the job, and then I use and recommend <a href="https://www.squarespace.com/">Squarespace</a>. It doesn’t have custom fields, but it does have stylish modern templates that can be tweaked easily (and switched easily at any time). It also includes lots of commonly requested functionality such as blogs, image galleries, commerce, events, etc. <i>Potential cons of Squarespace: can be too much flexibility for some; as with all online site-builders you WILL eventually run into a limitation that requires flexibility.</i></p>
+  </div>
+
+  <br>
+
+  <div class="reversed spaced banner">
+    <div class="narrow-site-width">
+      <h1>FAQ</h1>
+    </div>
+  </div>
+
+  <div class="narrow-site-width left-text">
+    <h3>Why Not Wordpress?</h3>
+    <p>Wordpress is great in some cases, and sometimes I do recommend it. Wordpress may fit the bill if:</p>
+    <ul class="bullets">
+      <li>your site is mainly a blog: this is what Wordpress was built for</li>
+      <li>there is a well-maintained Wordpress plug-in that is essential to your site (and can’t be replicated elsewhere)</li>
+      <li><i>preference:</i> you don’t mind handling the frequent security updates and potential plug-in incompatibilities</li>
+      <li><i>preference:</i> you think a gigantic userbase and plug-in library is somehow safer</li>
+      <li><i>preference:</i> Wordpress is “the devil you know” and that’s that</li>
+    </ul>
+    <p>I don’t typically build sites that fit those criteria — and I don’t have those preferences — so I don’t personally use or generally recommend Wordpress. </p>
+
+    <h3>Can you show me websites you’ve built using a particular CMS?</h3>
+    <p>The custom CMSs I use (Craft and Perch) do not dictate design or behavior decisions so you can’t judge their worth by viewing the public-facing website. In fact, they could probably power any marketing website you can find. The differences are essentially all “behind-the-scenes” where content editing is made as easy as possible by choosing the appropriate system for you and your website.</p>
+    <p>In fact, if you had an existing “static” (non-CMSed) site I could use one of my custom CMSs to retro-fit content management onto it and on the public side you’d never know the difference (except the content would probably be a lot fresher).</p>
+    <p>Because CMSs are really about the back-end it can be more helpful to see videos of the CMS editing interface in action. Just keep in mind that your experience will be carefully tailored to your site’s content.</p>
+    <p>In other words, how the system is set up for you matters a lot. A LOT. <b>Content management is not a commodity.</b></p>
+
+    <h3>Why don’t you use the most widely-adopted systems?</h3>
+    <p><b>Ubiquity does not equal appropriateness</b>, and my goal is to provide you with the best content editing experience possible.</p>
+    <p>The most popular systems have achieved large market share in part by being old and free to use. Their age and popularity have bloated the code base in an attempt to be all things to all people. This can slow down development, slow down site editing, and even slow down how fast your site loads.</p>
+    <p>Being so popular also makes them common targets for hackers and digital vandals, thus requiring vigilant security upgrades which can break out-of-date plug-ins. I have a client-collaborator that sends me a celebratory note every time her webhost sends a blanket reminder to regularly update any Wordpress, Drupal, or Joomla installations, because we used a different CMS and don’t have to bother.</p>
+    <p>Newer systems have fresh code bases that use modern interfaces, modern application design, and modern development techniques. They are made from the ground up for marketing websites and don’t rely on plug-ins for essential functionality. They feel better, look better, and work better.</p>
+    <p>I also tend to favor licensed systems because the income helps smaller development teams keep the system viable, focused, and on a rapid improvement cycle.</p>
+
+    <h3>What happens if the CMS we use is no longer developed?</h3>
+    <p><b>Your website will continue to function just as it did before.</b> The CMS will no longer be refined and improved upon by the original CMS developers. Any CMS in this situation will likely function well for years and we can continue to add functionality as needed.</p>
+    <p>Using a licensed system helps protect against abandonment because the development team is motivated to continue to provide a quality product (it isn’t a side job and they have relative freedom to guide the software as they see fit).</p>
+    <p>Turnover will happen eventually, I know, no matter what. I want to use the best system now.</p>
+
+    <h3>What if, down-the-road, we need to find another developer to help us with the CMS?</h3>
+    <p>All CMSs have a group of developer/implementers worldwide with varying skill levels. My anecdotal experience is that the bigger systems have more users overall, but also have a higher percentage of low-skill users attracted by the free core and large plug-in libraries. So while it may be easier to find a person who “knows” a more popular CMS there is not a better chance that you’ll find someone new who will be a good partner for you.</p>
+    <p>The best way to find a new developer is definitely referrals. If that is not an option, all CMSs have an online forum where you could ask about posting a contractor request with requirements. Then it would be a matter of vetting the applicants just like for any other job opening.</p>
+    <p>In an extreme case any competent developer could get up to speed with your CMS if properly motivated.</p>
+  </div>
+  <div class="narrow-site-width">
+    <br>
+    <p>Happy webbing,</p>
+    <p><i>Kirk Roberts</i></p>
+  </div>
+  {% include "partials/self-portrait.nunjucks" %}
+  {% include "partials/pre-footer-mailing-list.nunjucks" %}
+{% endblock %}

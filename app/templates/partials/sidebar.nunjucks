@@ -6,22 +6,22 @@
       <h4 class="sidebar-header">Kirk Roberts</h4>
       <nav>
         <ul class="sidebar-nav">
-          <li><a href="#" class="current">The Deal</a></li>
+          <li><a href="/">The Deal</a></li>
           <!-- <li><a href="#">About</a></li> -->
           <li><a href="https://goo.gl/forms/C5wwc0Usx8gwaAhh2">Contact</a></li>
           <li><a href="http://eepurl.com/cD08Yr">Mailing List</a></li>
         </ul>
       </nav>
     </div>
-    <!-- <div class="sidebar-group">
+    <div class="sidebar-group">
       <h5 class="sidebar-subhead">Appendices</h5>
       <nav>
         <ul class="sidebar-nav recede">
-          <li><a href="#">CMS Guide</a></li>
-          <li><a href="#">Theme Song</a></li>
-          <li><a href="#">Bookshelf</a></li>
+          <li><a href="/cms-guide.html">CMS Guide</a></li>
+          <!-- <li><a href="#">Theme Song</a></li> -->
+          <!-- <li><a href="#">Bookshelf</a></li> -->
         </ul>
       </nav>
-    </div> -->
+    </div>
   </div>
 </aside>

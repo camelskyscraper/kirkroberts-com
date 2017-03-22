@@ -29,11 +29,11 @@
       {% block content %} {% endblock %}
 
       <footer class="site-footer">
-        <img src="images/robotLove.png" width="100" alt="">
+        <img src="images/robotLove.png" width="100" alt="Illustration of robot head and heart">
       </footer>
     </div>
 
-      {% include "partials/sidebar.nunjucks" %}
+    {% include "partials/sidebar.nunjucks" %}
 
     <!-- build:js js/main.min.js -->
     <script src="js/sidebar.js"></script>
