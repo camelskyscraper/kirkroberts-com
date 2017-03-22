@@ -1,3 +1,5 @@
+$sidebar-breakpoint: 769px;
+
 * {
   box-sizing: border-box;
 }
@@ -9,7 +11,15 @@ img {
 
 html {
   background: #fff;
-  padding: 0 0 2em;
+  // padding: 0 0 2em;
+}
+
+.sidebar-open {
+  &, & body {
+    // height: 100%;
+    overflow: hidden;
+    // position: relative;
+  }
 }
 
 body {
@@ -20,15 +30,194 @@ body {
   text-align: center;
 }
 
+.site-wrapper {
+  @media (min-width: $sidebar-breakpoint) {
+    margin-right: 20%;
+  }
+}
+
+.menu-toggle {
+  border-radius: 25% 0 0 25%;
+  color: #fff;
+  font-size: 1.5em;
+  height: 46px;
+  // margin-top: -22px;
+  position: fixed;
+  right: 0;
+  text-decoration: none;
+  top: 45%;
+  transition: all 0.3s;
+  width: 40px;
+  z-index: 20;
+
+  &, &:hover {
+    background: #999;
+    background: rgba(#999, 0.5);
+  }
+
+  img {
+    display: block;
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    top: 13px;
+    width: 20px;
+    transition: all 0.3s;
+    // top: -0.1em;
+  }
+
+  .sidebar-open & {
+    background: #666;
+    img {
+      transform: rotate(45deg);
+    }
+  }
+
+  @media (min-width: $sidebar-breakpoint) {
+    display: none;
+  }
+
+}
+
+.sidebar {
+  background: #f9f9f9;
+  background: rgba(#f9f9f9, 0.96);
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+  z-index: 10;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  transition: all 0.3s;
+
+  .sidebar-open & {
+    left: 0;
+  }
+
+  @media (min-width: $sidebar-breakpoint) {
+    border-left: 1px solid #ddd;
+    left: auto;
+    overflow: visible;
+    padding: 0;
+    right: 0;
+    text-align: center;
+    width: 20%;
+  }
+}
+
+.sidebar-content {
+  @media (min-width: $sidebar-breakpoint) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+}
+
+.sidebar-nav {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+
+  li {
+    line-height: 1.3em;
+    margin: 0;
+
+    @media (min-width: $sidebar-breakpoint) {
+      display: block;
+      line-height: 1.3em;
+      margin: 0;
+    }
+  }
+
+  a {
+    background: none;
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: .2s all;
+
+    &:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    @media (min-width: $sidebar-breakpoint) {
+      display: block;
+      font-size: 0.7em;
+      padding: 3px 0;
+    }
+  }
+
+  .current {
+    background: #000;
+    color: #fff;
+    pointer-events: none;
+
+    @media (min-width: $sidebar-breakpoint) {
+      background: #fff;
+      color: #000;
+      position: relative;
+      left: -1px;
+      padding-left: 1px;
+      margin-right: -1px;
+      pointer-events: none;
+    }
+  }
+
+  &.recede a {
+    color: #777;
+
+    &:hover {
+      background: #fff;
+      color: #000;
+    }
+  }
+}
+
+.sidebar-header {
+  font-size: 0.9em;
+  margin: 1em 0;
+  display: none;
+
+  @media (min-width: $sidebar-breakpoint) {
+    display: block;
+  }
+}
+
+.sidebar-subhead {
+  color: #999;
+  font-size: 0.8em;
+  margin: 1em 0 0.5em;
+  display: none;
+
+  @media (min-width: $sidebar-breakpoint) {
+    display: block;
+  }
+}
+
+.sidebar-group {
+  margin: 2em 0 2em;
+}
+
+.sidebar-content {
+  overflow: auto;
+}
+
 .site-width {
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 7%;
   max-width: 80em;
 }
 
 .narrow-site-width {
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 7%;
   max-width: 48em;
 }
 
@@ -69,7 +258,7 @@ body {
   display: inline-block;
   width: 50%;
 
-  @media (min-width: 700px) {
+  @media (min-width: 568px) {
     width: 33%;
   }
 
@@ -77,7 +266,6 @@ body {
     width: 20%;
   }
 }
-
 
 .callout {
   padding: 0 10% 10%;
@@ -109,6 +297,16 @@ h3 {
   text-decoration: underline;
 }
 
+h4 {
+  font-size: 1em;
+  margin: 1em 0 0.5em;
+}
+
+h5 {
+  font-size: 1em;
+  margin: 1em 0 0.5em;
+}
+
 @media (min-width: 600px) {
   body {
     font-size: 16px;
@@ -129,6 +327,14 @@ h3 {
   h3 {
     font-size: 1.3em;
     line-height: 1.5;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  h5 {
+    font-style: 1.1em;
   }
 }
 
@@ -203,3 +409,4 @@ ul li {
 ul li b {
   // display: block;
 }
+

@@ -1,0 +1,27 @@
+<div class="menu-toggle" id="menu-toggle"><img src="images/plus.svg" alt="toggle menu" onerror="this.onerror=null; this.src='images/plus.png'"></div>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-content" id="sidebar-content">
+    <div class="sidebar-group">
+      <h4 class="sidebar-header">Kirk Roberts</h4>
+      <nav>
+        <ul class="sidebar-nav">
+          <li><a href="#" class="current">The Deal</a></li>
+          <!-- <li><a href="#">About</a></li> -->
+          <li><a href="https://goo.gl/forms/C5wwc0Usx8gwaAhh2">Contact</a></li>
+          <li><a href="http://eepurl.com/cD08Yr">Mailing List</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- <div class="sidebar-group">
+      <h5 class="sidebar-subhead">Appendices</h5>
+      <nav>
+        <ul class="sidebar-nav recede">
+          <li><a href="#">CMS Guide</a></li>
+          <li><a href="#">Theme Song</a></li>
+          <li><a href="#">Bookshelf</a></li>
+        </ul>
+      </nav>
+    </div> -->
+  </div>
+</aside>

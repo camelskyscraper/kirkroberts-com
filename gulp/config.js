@@ -91,7 +91,8 @@ var config = {
       ignore: [
         '.susy-test',
         /.is-/,
-        /.has-/
+        /.has-/,
+        /.sidebar/
       ],
       html: ['app/*.html']
     }

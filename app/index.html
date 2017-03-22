@@ -24,8 +24,9 @@
 
   </head>
   <body>
+    <div class="site-wrapper">
 
-    
+      
 
   <header class="narrow-site-width site-header">
     <img class="hero-image" src="images/youMeWebsiteBliss.png" alt="You + Me = Website Bliss" width="1226" height="894">
@@ -60,7 +61,7 @@
   <div class="narrow-site-width">
     <p><b>I’m a coder with a graphic design diploma.</b> I care about aesthetics and messaging just as much as behaviors and optimization (and know that they’re all related). I love making things that are beautiful and purposefully functional. I’ve been doing this professionally since 1999 and started my own website consultancy in 2007. Your joy in our working relationship and product are not just important to me, they are my full-time job and how I support my&nbsp;family.</p>
 
-    <p>Rest assured, our website creation is going to look great, function well, and be easy to update. It’s going to live long and help you prosper. You’re going to love sending people to it. Like I said at the top: <b><i>website bliss</i></b>.</p>
+    <p>Rest assured, our website creation is going to look great, function well, and be easy to update. It’s going to live long and help you prosper. You’re going to love sending people to it. Like I said at the top: <b><i>website&nbsp;bliss</i></b>.</p>
 
     <div class="spaced">
       <img src="images/writeYourOwnTestimonial.png" alt="Write your own testimonial">
@@ -137,7 +138,7 @@
   <div class="spaced reversed banner">
     <div class="narrow-site-width">
       <h3>Let&rsquo;s connect</h3>
-      <p>I&rsquo;m in the Eastern U.S. time zone and typically work 9am &ndash; 5pm, Monday&nbsp;&ndash;&nbsp;Friday.<br>
+      <p>I&rsquo;m in the Eastern U.S. time zone and typically work 9am&nbsp;&ndash;&nbsp;5pm, Monday&nbsp;&ndash;&nbsp;Friday.<br>
       Let&rsquo;s schedule a time to talk about our web project hopes&nbsp;and&nbsp;dreams.</p>
       <p>Please <a href="https://goo.gl/forms/C5wwc0Usx8gwaAhh2">contact me using this form</a> and I&rsquo;ll send you a link so we can book a day&nbsp;and&nbsp;time.</p>
     </div>
@@ -168,22 +169,43 @@
 
 
 
-    <footer class="site-footer">
-      <img src="images/robotLove.png" width="100" alt="">
-    </footer>
+      <footer class="site-footer">
+        <img src="images/robotLove.png" width="100" alt="">
+      </footer>
+    </div>
 
-    <!-- what branch? -->
-    <aside class="site">
+      <div class="menu-toggle" id="menu-toggle"><img src="images/plus.svg" alt="toggle menu" onerror="this.onerror=null; this.src='images/plus.png'"></div>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-content" id="sidebar-content">
+    <div class="sidebar-group">
+      <h4 class="sidebar-header">Kirk Roberts</h4>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Another Page</a></li>
-          <li><a href="#">Yet Another Page</a></li>
+        <ul class="sidebar-nav">
+          <li><a href="#" class="current">The Deal</a></li>
+          <!-- <li><a href="#">About</a></li> -->
+          <li><a href="https://goo.gl/forms/C5wwc0Usx8gwaAhh2">Contact</a></li>
+          <li><a href="http://eepurl.com/cD08Yr">Mailing List</a></li>
         </ul>
       </nav>
-    </aside>
+    </div>
+    <!-- <div class="sidebar-group">
+      <h5 class="sidebar-subhead">Appendices</h5>
+      <nav>
+        <ul class="sidebar-nav recede">
+          <li><a href="#">CMS Guide</a></li>
+          <li><a href="#">Theme Song</a></li>
+          <li><a href="#">Bookshelf</a></li>
+        </ul>
+      </nav>
+    </div> -->
+  </div>
+</aside>
+
 
     <!-- build:js js/main.min.js -->
+    <script src="js/sidebar.js"></script>
+    <script src="js/linkHandling.js"></script>
     <!-- endbuild -->
 
     <!-- google analytics -->

@@ -8,8 +8,8 @@ var config = require('../config');
 // gulp.watch('app/scss/**/*.scss', ['sass']);
 // wrapping it in a task lets us control when it happens
 gulp.task('watch', function() {
-  gulp.watch(config.sass.src, ['sass', 'lint:scss']);
-  gulp.watch(config.js.src, ['lint:js']);
+  gulp.watch(config.sass.src, ['sass']); // , 'lint:scss'
+  // gulp.watch(config.js.src, ['lint:js']);
   gulp.watch(config.js.src, browserSync.reload);
   gulp.watch(config.nunjucks.watch, ['nunjucks']);
 });

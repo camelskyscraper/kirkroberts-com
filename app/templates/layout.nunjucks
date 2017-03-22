@@ -24,25 +24,20 @@
 
   </head>
   <body>
+    <div class="site-wrapper">
 
-    {% block content %} {% endblock %}
+      {% block content %} {% endblock %}
 
-    <footer class="site-footer">
-      <img src="images/robotLove.png" width="100" alt="">
-    </footer>
+      <footer class="site-footer">
+        <img src="images/robotLove.png" width="100" alt="">
+      </footer>
+    </div>
 
-    <!-- what branch? -->
-    <aside class="site">
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Another Page</a></li>
-          <li><a href="#">Yet Another Page</a></li>
-        </ul>
-      </nav>
-    </aside>
+      {% include "partials/sidebar.nunjucks" %}
 
     <!-- build:js js/main.min.js -->
+    <script src="js/sidebar.js"></script>
+    <script src="js/linkHandling.js"></script>
     <!-- endbuild -->
 
     <!-- google analytics -->

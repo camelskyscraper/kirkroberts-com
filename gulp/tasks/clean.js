@@ -10,5 +10,8 @@ gulp.task('clean:dev', function() {
 });
 
 gulp.task('clean:dist', function() {
-  return del.sync(['dist']);
+  return del.sync([
+    'dist/css',
+    'dist/js'
+    ]);
 });
