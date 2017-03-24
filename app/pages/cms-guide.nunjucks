@@ -35,7 +35,7 @@
 
   <br>
 
-  <div class="reversed spaced banner">
+  <div class="reversed spaced banner" id="faq">
     <div class="narrow-site-width">
       <h1>FAQ</h1>
     </div>

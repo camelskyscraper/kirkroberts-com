@@ -20,7 +20,7 @@ var currentPath = window.location.pathname;
 for (var i = 0; i < navLinks.length; i++) {
   var link = navLinks[i];
   var href = link.getAttribute('href');
-  console.log(href, currentPath);
+  // console.log(href, currentPath);
   if (href === currentPath) {
     link.className += 'current';
   }
