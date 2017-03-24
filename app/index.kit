@@ -1,10 +1,6 @@
-{% extends "layout.nunjucks" %}
-
-{% set pageTitle = "Kirk Roberts | Can-do Website Collaboration" %}
-
-{% set pageDescription = "You need a smart website. My goal is to make creating (and maintaining) that website straight-forward, effective, and delightful." %}
-
-{% block content %}
+<!-- $pageTitle = Kirk Roberts | Can-do Website Collaboration -->
+<!-- $pageDescription = You need a smart website. My goal is to make creating (and maintaining) that website straight-forward, effective, and delightful. -->
+<!-- @include includes/top.kit -->
 
   <header class="narrow-site-width site-header">
     <img class="hero-image" src="images/youMeWebsiteBliss.png" alt="You + Me = Website Bliss" width="1226" height="894">
@@ -163,8 +159,6 @@
     <p><i>Kirk Roberts</i></p>
   </div>
 
-  {% include "partials/self-portrait.nunjucks" %}
-
-  {% include "partials/pre-footer-mailing-list.nunjucks" %}
-
-{% endblock %}
+<!-- @include includes/_self-portrait.kit -->
+<!-- @include includes/_pre-footer-mailing-list.kit -->
+<!-- @include includes/_bottom.kit -->
