@@ -2,11 +2,6 @@
 "AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
 "buildSteps": [
 	{
-		"name": "New \"Process Certain Files\" Step",
-		"stepType": 0,
-		"uuidString": "DF9A4AFB-EF39-4567-802B-1C63BB09C1D6"
-		},
-	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
 		"uuidString": "301EA360-2A9A-4623-B285-7AB127802527"
@@ -16,14 +11,20 @@
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.gitignore",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/.gitignore",
+		"oF": 1
+		},
+	"\/.jshintrc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/dist\/.jshintrc",
+		"oF": 1
 		},
 	"\/app\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/.htaccess",
+		"oAP": "\/dist\/.htaccess",
 		"oF": 0
 		},
 	"\/app\/403.kit": {
@@ -43,9 +44,9 @@
 		"iS": 4110,
 		"l": 1,
 		"oA": 0,
-		"oAP": "\/app\/android-chrome-192x192.png",
+		"oAP": "\/dist\/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/android-chrome-256x256.png": {
@@ -53,9 +54,9 @@
 		"iS": 5937,
 		"l": 1,
 		"oA": 0,
-		"oAP": "\/app\/android-chrome-256x256.png",
+		"oAP": "\/dist\/android-chrome-256x256.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/apple-touch-icon.png": {
@@ -63,42 +64,42 @@
 		"iS": 3666,
 		"l": 1,
 		"oA": 0,
-		"oAP": "\/app\/apple-touch-icon.png",
+		"oAP": "\/dist\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/bower_components\/normalize-css\/.bower.json": {
 		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-css\/.bower.json",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-css\/.bower.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/app\/bower_components\/normalize-css\/.editorconfig": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-css\/.editorconfig",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-css\/.editorconfig",
+		"oF": 1
 		},
 	"\/app\/bower_components\/normalize-css\/.gitignore": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-css\/.gitignore",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-css\/.gitignore",
+		"oF": 1
 		},
 	"\/app\/bower_components\/normalize-css\/.travis.yml": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-css\/.travis.yml",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-css\/.travis.yml",
+		"oF": 1
 		},
 	"\/app\/bower_components\/normalize-css\/bower.json": {
 		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-css\/bower.json",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-css\/bower.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -110,9 +111,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-css\/LICENSE.md",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-css\/LICENSE.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -125,87 +126,87 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-css\/normalize.css",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-css\/normalize.css",
+		"oF": 1,
 		"oS": 0
 		},
 	"\/app\/bower_components\/normalize-strings\/.bower.json": {
 		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/.bower.json",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/.bower.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/app\/bower_components\/normalize-strings\/.gitignore": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/.gitignore",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/.gitignore",
+		"oF": 1
 		},
 	"\/app\/bower_components\/normalize-strings\/.travis.yml": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/.travis.yml",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/.travis.yml",
+		"oF": 1
 		},
 	"\/app\/bower_components\/normalize-strings\/bower.json": {
 		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/bower.json",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/bower.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/app\/bower_components\/normalize-strings\/charmap.json": {
 		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/charmap.json",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/charmap.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/app\/bower_components\/normalize-strings\/component.json": {
 		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/component.json",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/component.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/app\/bower_components\/normalize-strings\/index.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/index.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/index.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/app\/bower_components\/normalize-strings\/normalize.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/normalize.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/normalize.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/app\/bower_components\/normalize-strings\/normalize.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/normalize.min.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/normalize.min.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/app\/bower_components\/normalize-strings\/package.json": {
 		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/package.json",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/package.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -217,9 +218,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/README.md",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/README.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -230,34 +231,34 @@
 	"\/app\/bower_components\/normalize-strings\/supported.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/supported.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/supported.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/app\/bower_components\/normalize-strings\/test\/normalize.test.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/test\/normalize.test.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/test\/normalize.test.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/app\/bower_components\/normalize-strings\/util\/getCharMap.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/normalize-strings\/util\/getCharMap.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/normalize-strings\/util\/getCharMap.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/app\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/browserconfig.xml",
+		"oAP": "\/dist\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/app\/cms-guide.kit": {
@@ -266,24 +267,14 @@
 		"oAP": "\/dist\/cms-guide.html",
 		"oF": 0
 		},
-	"\/app\/css\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/app\/css\/styles-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/app\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 416,
 		"l": 1,
 		"oA": 0,
-		"oAP": "\/app\/favicon-16x16.png",
+		"oAP": "\/dist\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/favicon-32x32.png": {
@@ -291,93 +282,93 @@
 		"iS": 613,
 		"l": 1,
 		"oA": 0,
-		"oAP": "\/app\/favicon-32x32.png",
+		"oAP": "\/dist\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/favicon.ico",
+		"oAP": "\/dist\/favicon.ico",
 		"oF": 0
 		},
 	"\/app\/images\/checklist.png": {
 		"ft": 32768,
 		"iS": 39995,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/checklist.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/checklist.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/devices.png": {
 		"ft": 32768,
 		"iS": 244284,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/devices.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/devices.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/lightbulb.png": {
 		"ft": 32768,
 		"iS": 36889,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/lightbulb.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/lightbulb.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/me.png": {
 		"ft": 32768,
 		"iS": 31564,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/me.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/me.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/minds.png": {
 		"ft": 32768,
 		"iS": 54990,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/minds.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/minds.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/palette.png": {
 		"ft": 32768,
 		"iS": 65191,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/palette.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/palette.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/plus.png": {
 		"ft": 32768,
 		"iS": 593,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/plus.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/plus.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/plus.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/app\/images\/plus.svg",
-		"oF": 0,
+		"oAP": "\/dist\/images\/plus.svg",
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -386,80 +377,80 @@
 		"ft": 32768,
 		"iS": 68286,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/robot.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/robot.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/robotLove.png": {
 		"ft": 32768,
 		"iS": 27829,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/robotLove.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/robotLove.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/sun.png": {
 		"ft": 32768,
 		"iS": 21063,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/sun.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/sun.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/writeYourOwnTestimonial.png": {
 		"ft": 32768,
 		"iS": 169049,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/writeYourOwnTestimonial.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/writeYourOwnTestimonial.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/images\/youMeWebsiteBliss.png": {
 		"ft": 32768,
 		"iS": 187268,
 		"l": 1,
-		"oA": 0,
-		"oAP": "\/app\/images\/youMeWebsiteBliss.png",
-		"oF": 0,
-		"opt": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/youMeWebsiteBliss.png",
+		"oF": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/includes\/_bottom.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/app\/dist\/_bottom.html",
+		"oAP": "\/dist\/includes\/_bottom.html",
 		"oF": 0
 		},
 	"\/app\/includes\/_pre-footer-mailing-list.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/app\/dist\/_pre-footer-mailing-list.html",
+		"oAP": "\/dist\/includes\/_pre-footer-mailing-list.html",
 		"oF": 0
 		},
 	"\/app\/includes\/_self-portrait.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/app\/dist\/_self-portrait.html",
+		"oAP": "\/dist\/includes\/_self-portrait.html",
 		"oF": 0
 		},
 	"\/app\/includes\/_sidebar.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/app\/dist\/_sidebar.html",
+		"oAP": "\/dist\/includes\/_sidebar.html",
 		"oF": 0
 		},
 	"\/app\/includes\/_top.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/app\/dist\/_top.html",
+		"oAP": "\/dist\/includes\/_top.html",
 		"oF": 0
 		},
 	"\/app\/index.kit": {
@@ -467,6 +458,15 @@
 		"oA": 0,
 		"oAP": "\/dist\/index.html",
 		"oF": 0
+		},
+	"\/app\/js\/_avoidConsoleErrors.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/dist\/js\/_avoidConsoleErrors.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/app\/js\/_linkHandling.js": {
 		"ft": 64,
@@ -498,13 +498,13 @@
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/.gitignore",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/.gitignore",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/modular-template-patterns\/modular-template-patterns.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/modular-template-patterns\/modular-template-patterns.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/modular-template-patterns\/modular-template-patterns.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/README.md": {
@@ -516,7 +516,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/README.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -528,271 +528,271 @@
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_2column_query.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_2column_query.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_2column_query.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_3column_query.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_3column_query.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_3column_query.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_basic_2column_query.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_basic_2column_query.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_basic_2column_query.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_basic_body_image_query.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_basic_body_image_query.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_basic_body_image_query.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_basic_query.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_basic_query.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_basic_query.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_body_image_2column_query.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_body_image_2column_query.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/responsive-templates\/base_boxed_body_image_2column_query.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-1-2-leftsidebar.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-1-2-leftsidebar.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-1-2-leftsidebar.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-1-2-rightsidebar.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-1-2-rightsidebar.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-1-2-rightsidebar.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-1-2.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-1-2.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-1-2.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-2-1.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-2-1.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-2-1.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-basic2column.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-basic2column.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/2col-basic2column.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3-asym.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3-asym.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3-asym.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3-leftsidebar.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3-leftsidebar.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3-leftsidebar.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3-rightsidebar.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3-rightsidebar.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3-rightsidebar.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-1-3.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-3-1-asym.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-3-1-asym.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-3-1-asym.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-3-1.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-3-1.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-3-1.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-basic3column-asym.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-basic3column-asym.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-basic3column-asym.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-basic3column.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-basic3column.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/3col-basic3column.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-1-2-3.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-1-2-3.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-1-2-3.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-1-3-2.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-1-3-2.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-1-3-2.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-1-50-25-25.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-1-50-25-25.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-1-50-25-25.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-2-1-3-leftsidebar.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-2-1-3-leftsidebar.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-2-1-3-leftsidebar.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-2-1-3-rightsidebar.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-2-1-3-rightsidebar.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-2-1-3-rightsidebar.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-50-25-25-1.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-50-25-25-1.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-50-25-25-1.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-50-25-25.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-50-25-25.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-50-25-25.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-variablelayout.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-variablelayout.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/fancy-variablelayout.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-1-4-1.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-1-4-1.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-1-4-1.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-1-4-2.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-1-4-2.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-1-4-2.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-1-4.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-1-4.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-1-4.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-4-1.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-4-1.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-4-1.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-basicgallery.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-basicgallery.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/gallery-basicgallery.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/mobile-basicmobile.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/mobile-basicmobile.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/mobile-basicmobile.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/mobile-postcardmobile.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/mobile-postcardmobile.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/mobile-postcardmobile.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-basic.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-basic.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-basic.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-leftsidebar.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-leftsidebar.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-leftsidebar.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-letterhead-centerlogo.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-letterhead-centerlogo.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-letterhead-centerlogo.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-letterhead-leftlogo.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-letterhead-leftlogo.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-letterhead-leftlogo.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-letterhead-rightlogo.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-letterhead-rightlogo.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-letterhead-rightlogo.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-postcard.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-postcard.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-postcard.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-rightsidebar.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-rightsidebar.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/simple-rightsidebar.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/transactional_basic.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/transactional_basic.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/transactional_basic.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/transactional_tabular.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/email-blueprints-master\/templates\/transactional_tabular.html",
+		"oAP": "\/dist\/mailchimp\/templates\/email-blueprints-master\/templates\/transactional_tabular.html",
 		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/mailchimp\/templates\/index.html",
+		"oAP": "\/dist\/mailchimp\/templates\/index.html",
 		"oF": 0
 		},
 	"\/app\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/app\/manifest-min.json",
+		"oAP": "\/dist\/manifest-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -802,9 +802,9 @@
 		"iS": 2040,
 		"l": 1,
 		"oA": 0,
-		"oAP": "\/app\/mstile-150x150.png",
+		"oAP": "\/dist\/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/rejected-taglines.kit": {
@@ -817,7 +817,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/app\/safari-pinned-tab.svg",
+		"oAP": "\/dist\/safari-pinned-tab.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -842,480 +842,205 @@
 		"oAP": "\/dist\/website-designer.html",
 		"oF": 0
 		},
-	"\/dist\/.htaccess": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/.htaccess",
-		"oF": 0
-		},
-	"\/dist\/403.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/403.html",
-		"oF": 0
-		},
-	"\/dist\/404.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/404.html",
-		"oF": 0
-		},
-	"\/dist\/android-chrome-192x192.png": {
-		"ft": 32768,
-		"iS": 4110,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/android-chrome-192x192.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/android-chrome-256x256.png": {
-		"ft": 32768,
-		"iS": 5937,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/android-chrome-256x256.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 3666,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/apple-touch-icon.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/browserconfig.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/browserconfig.xml",
-		"oF": 0
-		},
-	"\/dist\/cms-guide.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/cms-guide.html",
-		"oF": 0
-		},
-	"\/dist\/css\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/css\/styles-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/dist\/favicon-16x16.png": {
-		"ft": 32768,
-		"iS": 416,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/favicon-16x16.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 613,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/favicon-32x32.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/favicon.ico",
-		"oF": 0
-		},
-	"\/dist\/images\/checklist.png": {
-		"ft": 32768,
-		"iS": 29736,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/checklist.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/devices.png": {
-		"ft": 32768,
-		"iS": 191084,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/devices.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/lightbulb.png": {
-		"ft": 32768,
-		"iS": 28026,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/lightbulb.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/images\/me.png": {
-		"ft": 32768,
-		"iS": 23961,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/me.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/minds.png": {
-		"ft": 32768,
-		"iS": 41512,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/minds.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/palette.png": {
-		"ft": 32768,
-		"iS": 49663,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/palette.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/plus.png": {
-		"ft": 32768,
-		"iS": 150,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/plus.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/plus.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/plus.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/robot.png": {
-		"ft": 32768,
-		"iS": 52940,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/robot.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/robotLove.png": {
-		"ft": 32768,
-		"iS": 20373,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/robotLove.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/sun.png": {
-		"ft": 32768,
-		"iS": 14601,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/sun.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/writeYourOwnTestimonial.png": {
-		"ft": 32768,
-		"iS": 128538,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/writeYourOwnTestimonial.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/images\/youMeWebsiteBliss.png": {
-		"ft": 32768,
-		"iS": 145517,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/images\/youMeWebsiteBliss.png",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/index.html",
-		"oF": 0
-		},
-	"\/dist\/js\/scripts.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/scripts.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/dist\/manifest.json": {
-		"ft": 524288,
+	"\/dist": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/dist\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/dist\/mstile-150x150.png": {
-		"ft": 32768,
-		"iS": 2040,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/dist\/mstile-150x150.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/rejected-taglines.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/rejected-taglines.html",
-		"oF": 0
-		},
-	"\/dist\/safari-pinned-tab.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/safari-pinned-tab.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/website-designer.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/website-designer.html",
+		"oAP": "\/dist\/dist",
 		"oF": 0
 		},
 	"\/gulp\/config.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/config.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/config.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/custom-modules\/plumber.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/plumber.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/custom-modules\/plumber.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/browsersync.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/browsersync.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/browsersync.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/build.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/build.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/build.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/clean.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/clean.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/clean.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/copy.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/copy.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/copy.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/default.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/default.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/default.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/deploy.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/deploy.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/deploy.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/fonts.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/fonts.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/fonts.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/images.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/images.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/images.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/lint-js.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/lint-js.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/lint-js.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/lint-scss.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/lint-scss.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/lint-scss.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/nunjucks.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/nunjucks.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/nunjucks.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/sass.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/sass.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/sass.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/sprites.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/sprites.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/sprites.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/test.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/test.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/test.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/useref.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/useref.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/useref.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulp\/tasks\/watch.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/watch.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulp\/tasks\/watch.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/gulpfile.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/gulpfile.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/gulpfile.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/kirkroberts.com.sublime-project": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/kirkroberts.com.sublime-project",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/kirkroberts.com.sublime-project",
+		"oF": 1
 		},
 	"\/kirkroberts.com.sublime-workspace": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/kirkroberts.com.sublime-workspace",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/kirkroberts.com.sublime-workspace",
+		"oF": 1
 		},
 	"\/node_modules": {
 		"ft": 65536,
-		"oA": 2,
-		"oAP": "\/build\/node_modules",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/node_modules",
+		"oF": 1
 		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-min.json",
+		"oAP": "\/dist\/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -1328,9 +1053,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/README.html",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -1347,7 +1072,8 @@
 	"creationDate": 512070526,
 	"displayValue": "Kirk Roberts",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-drunkArcher"
+	"iconImageName": "meme-drunkArcher",
+	"lastBuiltDate": 512078842
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1602,7 +1328,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "dist",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -3067,7 +2793,7 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -3115,7 +2841,7 @@
 		"autoOutputPathRelativePath": "dist\/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 1,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 0,
@@ -3142,10 +2868,10 @@
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
-		"autoOutputPathRelativePath": "..\/dist",
+		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 2
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3217,10 +2943,10 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "dist\/css",
+		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "app",
 		"autoOutputPathReplace2": "dist",
-		"autoOutputPathStyle": 1,
+		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
