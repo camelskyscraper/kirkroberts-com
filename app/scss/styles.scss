@@ -40,6 +40,11 @@ body {
 
 .left-text {
   text-align: left;
+
+  ul {
+    list-style: disc;
+    padding-left: 1.5em;
+  }
 }
 
 .menu-toggle {
@@ -239,7 +244,8 @@ body {
 }
 
 .spaced {
-  padding: 2em 0;
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
 
 .banner {

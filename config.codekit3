@@ -7,7 +7,7 @@
 		"uuidString": "301EA360-2A9A-4623-B285-7AB127802527"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -42,31 +42,34 @@
 	"\/app\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 4110,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/dist\/android-chrome-192x192.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/android-chrome-256x256.png": {
 		"ft": 32768,
 		"iS": 5937,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/dist\/android-chrome-256x256.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 3666,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/dist\/apple-touch-icon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/bower_components\/normalize-css\/.bower.json": {
@@ -270,21 +273,23 @@
 	"\/app\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 416,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/dist\/favicon-16x16.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 613,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/dist\/favicon-32x32.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/favicon.ico": {
@@ -293,74 +298,87 @@
 		"oAP": "\/dist\/favicon.ico",
 		"oF": 0
 		},
+	"\/app\/flexible-retainer.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/dist\/flexible-retainer.html",
+		"oF": 0
+		},
 	"\/app\/images\/checklist.png": {
 		"ft": 32768,
 		"iS": 39995,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/checklist.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/devices.png": {
 		"ft": 32768,
 		"iS": 244284,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/devices.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/lightbulb.png": {
 		"ft": 32768,
 		"iS": 36889,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/lightbulb.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/me.png": {
 		"ft": 32768,
 		"iS": 31564,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/me.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/minds.png": {
 		"ft": 32768,
 		"iS": 54990,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/minds.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/palette.png": {
 		"ft": 32768,
 		"iS": 65191,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/palette.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/plus.png": {
 		"ft": 32768,
 		"iS": 593,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/plus.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/plus.svg": {
@@ -376,51 +394,56 @@
 	"\/app\/images\/robot.png": {
 		"ft": 32768,
 		"iS": 68286,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/robot.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/robotLove.png": {
 		"ft": 32768,
 		"iS": 27829,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/robotLove.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/sun.png": {
 		"ft": 32768,
 		"iS": 21063,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/sun.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/writeYourOwnTestimonial.png": {
 		"ft": 32768,
 		"iS": 169049,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/writeYourOwnTestimonial.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/images\/youMeWebsiteBliss.png": {
 		"ft": 32768,
 		"iS": 187268,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/dist\/images\/youMeWebsiteBliss.png",
 		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/includes\/_bottom.kit": {
@@ -800,11 +823,12 @@
 	"\/app\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 2040,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/dist\/mstile-150x150.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/rejected-taglines.kit": {
@@ -1035,7 +1059,7 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/dist\/node_modules",
-		"oF": 1
+		"oF": 0
 		},
 	"\/package.json": {
 		"ft": 524288,
@@ -1073,11 +1097,11 @@
 	"displayValue": "Kirk Roberts",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-drunkArcher",
-	"lastBuiltDate": 512078842
+	"lastBuiltDate": 514135282
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -2033,6 +2057,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2857,14 +2885,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -2927,7 +2947,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
