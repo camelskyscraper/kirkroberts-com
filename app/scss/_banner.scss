@@ -1,0 +1,21 @@
+.banner {
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+.banner--big {
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+
+.banner--reversed {
+  background: #000;
+  color: #fff;
+}
+
+.banner,
+.banner__internal {
+  > :last-child {
+    margin-bottom: 0;
+  }
+}

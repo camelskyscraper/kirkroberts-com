@@ -1,0 +1,15 @@
+
+* {
+  box-sizing: border-box;
+}
+
+// html5 shiv?
+header, footer, nav, section, article, hgroup, figure {
+  display: block;
+}
+
+// make images fit
+img {
+  max-width: 100%;
+  height: auto;
+}
