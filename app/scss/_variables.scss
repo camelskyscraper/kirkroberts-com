@@ -1,2 +1,11 @@
 
+
+$white: #fff;
+$black: #000;
+
 $sidebar-breakpoint: 769px;
+
+$base-font-size: 16;
+$base-font-size-mobile: 14;
+$base-line-height: 1.8;
+$magic-number: $base-font-size * $base-line-height;

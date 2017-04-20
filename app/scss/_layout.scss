@@ -5,9 +5,15 @@ body {
 }
 
 // start with consistent, one-way spacing
-div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
+// original did this to every div... why?
+object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure, .grid {
   margin: 0 0 1.5em;
   padding: 0;
+}
+
+// unlist all lists, add back in rich-text styles
+ul, ol {
+  list-style: none;
 }
 
 .text-center {
@@ -16,7 +22,7 @@ div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, le
 
 .site-width {
   margin: 0 auto;
-  max-width: 48em;
+  max-width: 50em;
   padding: 0 7%;
 }
 
@@ -25,5 +31,35 @@ div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, le
 }
 
 .section {
-  margin-bottom: 3em;
+  margin-bottom: 6em;
+}
+
+.spacer {
+  display: block;
+  height: 2em;
+}
+
+.site-wrapper {
+  @media (min-width: $sidebar-breakpoint) {
+    margin-right: 20%;
+  }
+}
+
+.grid {
+
+}
+
+.grid__item {
+  display: inline-block;
+  width: 50%;
+}
+
+.grid__item--1-5 {
+  @media (min-width: 568px) {
+    width: 33%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 20%;
+  }
 }

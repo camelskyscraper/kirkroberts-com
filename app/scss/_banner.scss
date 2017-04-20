@@ -1,16 +1,18 @@
 .banner {
-  padding-bottom: 3em;
+  margin-bottom: 4em;
+  padding-bottom: 3.25em;
   padding-top: 3em;
 }
 
 .banner--big {
-  padding-bottom: 5em;
+  margin-bottom: 6em;
+  padding-bottom: 5.25em;
   padding-top: 5em;
 }
 
 .banner--reversed {
-  background: #000;
-  color: #fff;
+  background: $black;
+  color: $white;
 }
 
 .banner,

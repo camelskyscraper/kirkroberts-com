@@ -1,8 +1,4 @@
 
-$base-font-size: 16;
-$base-line-height: 1.7;
-$magic-number: $base-font-size * $base-line-height;
-
 @mixin font-size($font-size, $line-height) {
   font-size: $font-size * 1px;
   font-size: ($font-size / $base-font-size) * 1rem;
@@ -10,10 +6,15 @@ $magic-number: $base-font-size * $base-line-height;
 }
 
 html {
-  color: #000;
+  color: $black;
   font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
-  font-size: $base-font-size * 1px;
+  font-size: $base-font-size-mobile * 1px;
   line-height: $base-line-height; // magic number
+  -webkit-text-size-adjust: 100%; // Prevent font scaling in landscape while allowing user zoom
+
+  @media (min-width: $sidebar-breakpoint) {
+    font-size: $base-font-size * 1px;
+  }
 }
 
 /* Common margin-bottom for vertical rhythm. */
@@ -24,53 +25,112 @@ h1,h2,h3,h4,h5,h6,ul,ol,dl,fieldset,p,table,pre,hr {
 
 /* These handle massive type, for less frequently occuring bits of text (e.g. in mastheads and banners). */
 .giga {
-    font-size:80px;
-    font-size:5rem;     /* 80px */
-    line-height:1.2;    /* 96px */
+  @include font-size(80, 1.7);
 }
 .mega {
-    font-size:64px;
-    font-size:4rem;     /* 64px */
-    line-height:1.125;  /* 72px */
+  @include font-size(64, 1.7);
 }
 .kilo {
-    font-size:48px;
-    font-size:3rem;     /* 48px */
-    line-height:1;      /* 48px */
+  @include font-size(48, 1.7);
 }
 
 /* Define headings and their associated classes here. */
 h1,.alpha {
-  @include font-size(27, 1.7);
+  @include font-size(25, 1.8);
 }
 h2,.beta {
-  @include font-size(24, 1.6);
+  @include font-size(21, 1.8);
   text-decoration: underline;
 }
 h3,.gamma {
-    font-size:20px;
-    font-size:1.25rem;  /* 20px */
-    line-height:1.2;    /* 24px */
+  @include font-size(19, 1.8);
+  text-decoration: underline;
 }
 h4,.delta {
-    font-size:18px;
-    font-size:1.125rem; /* 18px */
-    line-height:1.333;  /* 24px */
+  @include font-size(14, 1.7);
+  margin-bottom: 1em;
 }
 h5,.epsilon {
-    font-size:16px;
-    font-size:1rem;     /* 16px */
-    line-height:1.5;    /* 24px */
+  @include font-size(13, 1.7);
+  color: #999;
+  margin-bottom: 0.5em;
 }
 h6,.zeta {
-    font-size:16px;
-    font-size:1rem;     /* 16px */
-    line-height:1.5;    /* 24px */
+  @include font-size(12, 1.7);
 }
 
 /* Smaller-than-body-copy sizes here. */
 small, .milli {
-    font-size:12px;
-    font-size:0.75rem;  /* 12px */
-    line-height:2;      /* 24px */
+  @include font-size(12, 1.7);
+}
+
+b, strong {
+  color: $black;
+  background: #ff0;
+  font-weight: bold;
+  margin: 0 -5px;
+  padding: 3px 5px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+// for rich-text editors
+// or because sometimes you just want to have spacing, etc work with no extra markup
+.rich-text {
+
+  h2, h3 {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  h2 {
+    margin-top: 4em;
+  }
+
+  h3 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  ul, ol {
+    margin-left: 2em;
+
+    ul,ol {
+      margin-top: 1em;
+    }
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+    ol {
+      list-style-type: upper-alpha;
+       ol {
+        list-style-type: upper-roman;
+        ol {
+          list-style-type: lower-alpha;
+          ol {
+            list-style-type: lower-roman;
+          }
+        }
+       }
+    }
+  }
+
+  li {
+    margin-bottom: 1em;
+  }
+
+  // for lists that shouldn't look like lists
+  .unlist {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
