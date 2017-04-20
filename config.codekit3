@@ -1047,9 +1047,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/dist\/css\/styles-bak.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1309,11 +1309,7 @@
 	"displayValue": "Kirk Roberts",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-drunkArcher",
-<<<<<<< HEAD
-	"lastBuiltDate": 514135282
-=======
-	"lastBuiltDate": 514137281
->>>>>>> css
+	"lastBuiltDate": 514405991
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
