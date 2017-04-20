@@ -11,6 +11,7 @@
   text-align: center;
   transition: all .3s;
   -webkit-overflow-scrolling: touch;
+  will-change: transform; // moves painting to GPU for better performance
   z-index: 10;
 
   .sidebar-open & {

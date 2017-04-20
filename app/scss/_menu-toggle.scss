@@ -10,6 +10,7 @@
   top: 45%;
   transition: all 0.3s;
   width: 40px;
+  will-change: transform; // moves painting to GPU for better performance
   z-index: 20;
 
   &, &:hover {
