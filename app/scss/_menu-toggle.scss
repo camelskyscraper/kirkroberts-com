@@ -1,0 +1,42 @@
+.menu-toggle {
+  border-radius: 25% 0 0 25%;
+  color: $white;
+  font-size: 1.5em;
+  height: 46px;
+  // margin-top: -22px;
+  position: fixed;
+  right: 0;
+  text-decoration: none;
+  top: 45%;
+  transition: all 0.3s;
+  width: 40px;
+  z-index: 20;
+
+  &, &:hover {
+    background: #999;
+    background: rgba(#999, 0.5);
+  }
+
+  .sidebar-open & {
+    background: #666;
+    img {
+      transform: rotate(45deg);
+    }
+  }
+
+  @media (min-width: $sidebar-breakpoint) {
+    display: none;
+  }
+
+}
+
+.menu-toggle__icon {
+  display: block;
+  height: 20px;
+  left: 10px;
+  position: absolute;
+  top: 13px;
+  width: 20px;
+  transition: all 0.3s;
+  // top: -0.1em;
+}

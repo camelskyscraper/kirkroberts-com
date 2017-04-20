@@ -1,27 +1,27 @@
 var sidebarOpen = false;
-var sidebar = document.getElementById('sidebar');
-var scrollSidebar = false;
+var sidebar = document.getElementById('js-sidebar');
+var menuToggle = document.getElementById('js-menu-toggle');
+var sidebarContent = document.getElementById('js-sidebar-content');
 
 // sidebar menu on narrow screens
 function toggleMenu() { // declare a function that updates the state
 
   sidebarOpen = !sidebarOpen;
 
-  var root = document.getElementsByTagName('html')[0];
+  var html = document.getElementsByTagName('html')[0];
   if (sidebarOpen) {
-    root.className += ' sidebar-open';
+    html.className += ' sidebar-open';
     setScrollSidebar();
   } else {
-    root.className = root.className.replace(/(?:^|\s)sidebar-open(?!\S)/g , '');
+    html.className = html.className.replace(/(?:^|\s)sidebar-open(?!\S)/g , '');
   }
 }
-var element = document.getElementById('menu-toggle');
-element.addEventListener('click', toggleMenu);
+
+menuToggle.addEventListener('click', toggleMenu);
 
 // disallow scrolling if sidebar is open on mobile
+var scrollSidebar = false;
 function setScrollSidebar() {
-  var sidebar = document.getElementById('sidebar');
-  var sidebarContent = document.getElementById('sidebar-content');
   scrollSidebar = (sidebarContent.scrollHeight > sidebar.clientHeight);
   // console.log(scrollSidebar, sidebarContent.scrollHeight, sidebar.clientHeight);
 }

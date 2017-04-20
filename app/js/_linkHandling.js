@@ -22,6 +22,6 @@ for (var i = 0; i < navLinks.length; i++) {
   var href = link.getAttribute('href');
   // console.log(href, currentPath);
   if (href === currentPath) {
-    link.className += 'current';
+    link.className += ' is-selected';
   }
 }

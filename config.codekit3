@@ -72,6 +72,30 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/audio\/KirkRobertsThemeSong.m4a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/audio\/KirkRobertsThemeSong.m4a",
+		"oF": 0
+		},
+	"\/app\/audio\/KirkRobertsThemeSong.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/audio\/KirkRobertsThemeSong.mp3",
+		"oF": 0
+		},
+	"\/app\/audio\/KirkRobertsThemeSong.ogg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/audio\/KirkRobertsThemeSong.ogg",
+		"oF": 0
+		},
+	"\/app\/audio\/KirkRobertsThemeSong_cbr.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/audio\/KirkRobertsThemeSong_cbr.mp3",
+		"oF": 0
+		},
 	"\/app\/bower_components\/normalize-css\/.bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -847,18 +871,206 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/app\/scss\/_banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_banner.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_callout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_callout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_heroimage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_heroimage.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_links.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_links.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_menu-toggle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_menu-toggle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_site-footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_site-footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_text.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/scss\/styles-bak.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/dist\/css\/styles-bak.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/scss\/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/dist\/css\/styles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/app\/theme-song.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/dist\/theme-song.html",
+		"oF": 0
 		},
 	"\/app\/website-designer.kit": {
 		"ft": 2048,
@@ -1097,7 +1309,11 @@
 	"displayValue": "Kirk Roberts",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-drunkArcher",
+<<<<<<< HEAD
 	"lastBuiltDate": 514135282
+=======
+	"lastBuiltDate": 514137281
+>>>>>>> css
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2967,7 +3183,7 @@
 		"autoOutputPathReplace1": "app",
 		"autoOutputPathReplace2": "dist",
 		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,

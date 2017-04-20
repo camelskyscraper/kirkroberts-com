@@ -1,0 +1,97 @@
+<!-- $pageTitle = Theme Song | Kirk Roberts | Can-do Website Collaboration -->
+<!-- $pageDescription = nil -->
+<!-- @include includes/top.kit -->
+
+
+  <div class="banner banner--big banner--reversed">
+    <div class="site-width text-center banner__internal">
+      <h1>Theme Song</h1>
+    </div>
+  </div>
+
+  <div class="site-width rich-text text-center">
+    <p>This is what would play at the beginning of my television show, which obviously would be created using clay-mation.</p>
+
+    <audio controls id="audio-player">
+      <source src="audio/KirkRobertsThemeSong_cbr.mp3" type="audio/mp3">
+      <source src="audio/KirkRobertsThemeSong.ogg" type="audio/ogg">
+      <p>Your browser doesn't support HTML5 audio. Here is a <a href="audio/KirkRobertsThemeSong_cbr.mp3">link to the audio</a> instead.</p>
+    </audio>
+
+    <div id="audio-controller" style="border: 1px solid black">
+      <button id="pButton" class="play" onclick="playAudio()"></button>
+      <div id="timeline">
+        <div id="playhead"></div>
+      </div>
+      <div id="volume_control">
+        <label id="rngVolume_label" for="rngVolume">Volume:</label>
+        <input type="range" onchange="setVolume(this.value)" id="rngVolume" min="0" max="1" step="0.01" value="1">
+      </div>
+    </div>
+
+    <script>
+      var music = document.getElementById('audio-player');
+      var pButton = document.getElementById('pButton');
+
+      function playAudio() {
+        if (music.paused) {
+          music.play();
+          pButton.className = "";
+          pButton.className = "pause";
+        } else {
+          music.pause();
+          pButton.className = "";
+          pButton.className = "play";
+        }
+      }
+    </script>
+    <style>
+
+      .play,
+      .pause {
+        background: red;
+        border: 0;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+      }
+
+    </style>
+
+    <h2>Theme Song Lyrics</h2>
+    <p>Websites, websites, websites<br />
+    Kirk Roberts!<br />
+    Websites, websites, websites</p>
+
+    <p>Kirk makes websites<br />
+    Really great sites<br />
+    He’ll make one for you<br />
+    He’ll make one with you</p>
+
+    <p>(Make the people say) <br />
+      OOO!<br />
+    I love your website (yeah, I love it)<br />
+    You gotta great website<br />
+    I love you and your website</p>
+
+    <p>(That’ll make you say) <br />
+    &ldquo;Kirk is the man<br />
+    He took all my web dreams and made a plan<br />
+    Rocked it hard and made me smile</p>
+
+    <p>&ldquo;And now everyone is so impressed...<br />
+    With my really great website&rdquo;</p>
+
+    <p>Websites, websites<br />
+    Kirk Roberts!<br />
+    Websites, websites, websites</p>
+
+
+    <h2>Credits</h2>
+    <p>I owe it all to <a href="http://hotmike.com/" target="_blank">super-talented composer/musician <span class="nobr">Michael T. Roberts</span></a> (who also happens to be my brother) and his entourage of awesome collaborators, including Josh Nadelberg (lead vocals) and Chris &ldquo;Spoony&rdquo; Webber (backing vocals).</p>
+
+  </div>
+
+<!-- @include includes/_self-portrait.kit -->
+<!-- @include includes/_pre-footer-mailing-list.kit -->
+<!-- @include includes/_bottom.kit -->
