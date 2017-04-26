@@ -23,7 +23,10 @@ ul, ol {
 .site-width {
   margin: 0 auto;
   max-width: 46em;
-  padding: 0 3em;
+  padding: 0 2em;
+  @media (min-width: $sidebar-breakpoint) {
+    padding: 0 3em;
+  }
 }
 
 .site-width--wide {
