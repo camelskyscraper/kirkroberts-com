@@ -7,8 +7,13 @@ body {
 // start with consistent, one-way spacing
 // original did this to every div... why?
 object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure, .grid {
-  margin: 0 0 1.5em;
+  margin: 0;
+  margin-bottom: $base-line-height * 1em;
   padding: 0;
+
+  @media (min-width: $sidebar-breakpoint) {
+    margin-bottom: $base-line-height-desktop * 1em;
+  }
 }
 
 // unlist all lists, add back in rich-text styles
@@ -23,7 +28,7 @@ ul, ol {
 .site-width {
   margin: 0 auto;
   max-width: 46em;
-  padding: 0 2em;
+  padding: 0 1em;
   @media (min-width: $sidebar-breakpoint) {
     padding: 0 3em;
   }
@@ -31,10 +36,15 @@ ul, ol {
 
 .site-width--wide {
   max-width: 80em;
+
 }
 
 .section {
-  margin-bottom: 6em;
+  margin-bottom: 3em;
+
+  @media (min-width: $sidebar-breakpoint) {
+    margin-bottom: 6em;
+  }
 }
 
 .spacer {
@@ -62,7 +72,7 @@ ul, ol {
     width: 33%;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px), (orientation: landscape) {
     width: 20%;
   }
 }

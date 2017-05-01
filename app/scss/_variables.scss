@@ -6,7 +6,10 @@ $highlighter: #ff0;
 
 $sidebar-breakpoint: 769px;
 
-$base-font-size: 16;
-$base-font-size-mobile: 14;
-$base-line-height: 1.8;
+$base-font-size: 14;
+$base-line-height: 1.6;
+
+$base-font-size-desktop: 16;
+$base-line-height-desktop: 1.8;
+
 $magic-number: $base-font-size * $base-line-height;

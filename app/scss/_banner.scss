@@ -1,13 +1,25 @@
 .banner {
-  margin-bottom: 4em;
-  padding-bottom: 3.25em;
-  padding-top: 3em;
+  margin-bottom: 2em;
+  padding-bottom: 2.5em;
+  padding-top: 2em;
+
+  @media (min-width: $sidebar-breakpoint) {
+    margin-bottom: 4em;
+    padding-bottom: 3.25em;
+    padding-top: 3em;
+  }
 }
 
 .banner--big {
-  margin-bottom: 6em;
-  padding-bottom: 5.25em;
-  padding-top: 5em;
+  margin-bottom: 4em;
+  padding-bottom: 3.25em;
+  padding-top: 3em;
+
+  @media (min-width: $sidebar-breakpoint) {
+    margin-bottom: 6em;
+    padding-bottom: 5.25em;
+    padding-top: 5em;
+  }
 }
 
 .banner--reversed {
@@ -15,9 +27,13 @@
   color: $white;
 }
 
-.banner,
-.banner__internal {
-  > :last-child {
+// three levels deep should be enough (use case: .banner > div > ul > li)
+// so let's make it four levels deep
+.banner {
+  > :last-child,
+  > :last-child > :last-child,
+  > :last-child > :last-child > :last-child,
+  > :last-child > :last-child > :last-child > :last-child {
     margin-bottom: 0;
   }
 }
