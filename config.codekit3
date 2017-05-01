@@ -1058,6 +1058,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/scss\/_testtext.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_testtext.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/scss\/_text.scss": {
 		"aP": 0,
 		"bl": 0,
