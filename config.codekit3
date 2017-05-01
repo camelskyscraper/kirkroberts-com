@@ -481,22 +481,33 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/images\/youMeWebsiteBliss-1280.png": {
+	"\/app\/images\/youMeWebsiteBliss-640.png": {
 		"ft": 32768,
-		"iS": 201387,
+		"iS": 69202,
 		"oA": 0,
-		"oAP": "\/dist\/images\/youMeWebsiteBliss-1280.png",
+		"oAP": "\/dist\/images\/youMeWebsiteBliss-640.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/images\/youMeWebsiteBliss-640.png": {
+	"\/app\/images\/youMeWebsiteBliss-wide-1280.png": {
 		"ft": 32768,
-		"iS": 69202,
+		"iS": 128260,
 		"oA": 0,
-		"oAP": "\/dist\/images\/youMeWebsiteBliss-640.png",
+		"oAP": "\/dist\/images\/youMeWebsiteBliss-wide-1280.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/youMeWebsiteBliss-wide-640.png": {
+		"ft": 32768,
+		"iS": 41564,
+		"oA": 0,
+		"oAP": "\/dist\/images\/youMeWebsiteBliss-wide-640.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

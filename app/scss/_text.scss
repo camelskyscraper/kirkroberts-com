@@ -12,25 +12,33 @@
 html {
   color: $black;
   font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
-  font-size: $base-font-size-mobile * 1px;
-  line-height: $base-line-height; // magic number
+  font-size: 100%;
   -webkit-text-size-adjust: 100%; // Prevent font scaling in landscape while allowing user zoom
+}
+
+body {
+  font-size: $base-font-size / 16 * 100%; // big assumption that the browser's base is 16px
+  line-height: $base-line-height;
 
   @media (min-width: $sidebar-breakpoint) {
-    font-size: $base-font-size * 1px;
+    font-size: $base-font-size-desktop / 16 * 100%;
+    line-height: $base-line-height-desktop;
   }
 }
 
 /* Common margin-bottom for vertical rhythm. */
 h1,h2,h3,h4,h5,h6,ul,ol,dl,fieldset,p,table,pre,hr {
-    margin-bottom: $magic-number * 1px;
-    margin-bottom: $base-line-height * 1rem;
+    // margin-bottom: $magic-number * 1px;
+    margin-bottom: $base-line-height * 1em;
+
+    @media (min-width: $sidebar-breakpoint) {
+      margin-bottom: $base-line-height-desktop * 1em;
+    }
 }
 
 // headers
 h1, h2, h3 {
-  // check performance painting
-  // does nothing in ie/edge
+  // check performance painting; does nothing in ie/edge
   text-rendering: optimizeLegibility;
 }
 
@@ -50,30 +58,36 @@ h1, h2, h3 {
 
 /* Define headings and their associated classes here. */
 h1,.alpha {
-  @include declare-font-size-in-pixels(21);
-  line-height: 1.8;
+  font-size: 1.2em;
 
   @media (min-width: $sidebar-breakpoint) {
-    @include declare-font-size-in-pixels(24); // 1.5625
+    font-size: 1.5em;
+    line-height: 1.8;
   }
 }
 h2,.beta {
-  @include declare-font-size-in-pixels(21); // 1.3125
-  line-height: 1.8;
+  font-size: 1.15em;
   text-decoration: underline;
+
+  @media (min-width: $sidebar-breakpoint) {
+    font-size: 1.3em;
+  }
 }
 h3,.gamma {
-  @include declare-font-size-in-pixels(19); // 1.1875
-  line-height: 1.8;
+  font-size: 1.05em;
   text-decoration: underline;
+
+  @media (min-width: $sidebar-breakpoint) {
+    font-size: 1.15em;
+  }
 }
 h4,.delta {
-  @include declare-font-size-in-pixels(14);
+  font-size: 0.9em;
   line-height: 1.7;
   margin-bottom: 1em;
 }
 h5,.epsilon {
-  @include declare-font-size-in-pixels(13);
+  font-size: 0.85em;
   line-height: 1.7;
   color: #999;
   margin-bottom: 0.5em;
@@ -93,12 +107,22 @@ b, strong {
   color: $black;
   background: $highlighter;
   font-weight: bold;
-  margin: 0 -5px;
-  padding: 3px 5px;
+  margin: 0 -0.15em;
+  padding: 0.05em 0.15em;
 }
 
 blockquote {
   font-style: italic;
+}
+
+figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+  line-height: 1.2;
+
+  @media (min-width: $sidebar-breakpoint) {
+    font-size: 1em;
+  }
 }
 
 // for rich-text editors
@@ -149,10 +173,14 @@ blockquote {
   }
 
   li {
-    margin-bottom: 1em;
+    margin-bottom: $base-line-height * 1em;
+
+    @media (min-width: $sidebar-breakpoint) {
+      margin-bottom: $base-line-height-desktop * 1em;
+    }
   }
 
-  // for lists that shouldn't look like lists
+  // for lists that shouldn't look like lists (more like paragraphs)
   .unlist {
     list-style: none;
     margin-left: 0;

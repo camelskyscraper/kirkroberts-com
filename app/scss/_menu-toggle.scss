@@ -3,7 +3,6 @@
   color: $white;
   font-size: 1.5em;
   height: 46px;
-  // margin-top: -22px;
   position: fixed;
   right: 0;
   text-decoration: none;
@@ -20,9 +19,6 @@
 
   .sidebar-open & {
     background: #666;
-    img {
-      transform: rotate(45deg);
-    }
   }
 
   @media (min-width: $sidebar-breakpoint) {
@@ -39,5 +35,8 @@
   top: 13px;
   width: 20px;
   transition: all 0.3s;
-  // top: -0.1em;
+
+  .sidebar-open & {
+    transform: rotate(45deg);
+  }
 }

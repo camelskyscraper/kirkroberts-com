@@ -1,3 +1,7 @@
 .site-footer {
-  margin-top: 16em;
+  margin-top: 8em;
+
+  @media (min-width: $sidebar-breakpoint) {
+    margin-top: 16em;
+  }
 }
