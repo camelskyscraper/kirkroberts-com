@@ -448,6 +448,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/images\/testimonials-1280.png": {
+		"ft": 32768,
+		"iS": 216137,
+		"oA": 0,
+		"oAP": "\/dist\/images\/testimonials-1280.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/testimonials-640.png": {
+		"ft": 32768,
+		"iS": 74635,
+		"oA": 0,
+		"oAP": "\/dist\/images\/testimonials-640.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/images\/writeYourOwnTestimonial-1280.png": {
 		"ft": 32768,
 		"iS": 122799,
@@ -476,6 +498,17 @@
 		"oA": 2,
 		"oAP": "\/dist\/images\/writeYourOwnTestimonial.png",
 		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/youMeWebsiteBliss-1280.png": {
+		"ft": 32768,
+		"iS": 201387,
+		"oA": 0,
+		"oAP": "\/dist\/images\/youMeWebsiteBliss-1280.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1377,7 +1410,7 @@
 	"displayValue": "Kirk Roberts",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-drunkArcher",
-	"lastBuiltDate": 514405991
+	"lastBuiltDate": 515345210
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

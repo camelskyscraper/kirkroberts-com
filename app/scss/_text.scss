@@ -99,8 +99,9 @@ h6,.zeta {
 
 /* Smaller-than-body-copy sizes here. */
 small, .milli {
-  @include declare-font-size-in-pixels(12);
+  font-size: 0.8em;
   line-height: 1.7;
+  font-style: italic;
 }
 
 b, strong {
@@ -122,6 +123,7 @@ figcaption {
 
   @media (min-width: $sidebar-breakpoint) {
     font-size: 1em;
+    line-height: 1.5;
   }
 }
 

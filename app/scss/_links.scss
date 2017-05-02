@@ -1,5 +1,5 @@
 a {
-  background: $black;
+  background: #333;
   color: $white;
   cursor: pointer;
   margin: 0 -5px;
@@ -7,8 +7,15 @@ a {
   text-decoration: underline;
   transition: 0.1s all;
 
-  &:hover {
+  [class$="--reversed"] & {
+    background: #ccc;
+    color: $black;
+  }
+
+  &:hover,
+  [class$="--reversed"] &:hover {
     background: #0a9e0e;
+    color: $white;
     text-decoration: none;
   }
 }
