@@ -20,7 +20,7 @@
   padding: 1em 1.25em;
   margin: 0;
   text-decoration: none;
-  transition: 0.2s all;
+  transition: 0.2s background-color, 0.2s color;
 
   &:hover {
     background: $white;
@@ -45,6 +45,8 @@
 
   @media (min-width: $sidebar-breakpoint) {
     background: $white;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #f2f2f2;
     color: $black !important;
     position: relative;
     left: -1px;

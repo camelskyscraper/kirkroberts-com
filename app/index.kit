@@ -4,30 +4,29 @@
 
   <section class="section">
     <div class="site-width">
-      <picture>
-        <source
-          media="(max-height: 567px)"
-          srcset="images/youMeWebsiteBliss-wide-640.png,
-                  images/youMeWebsiteBliss-wide-1280.png 2x">
-        <source
-          srcset="images/youMeWebsiteBliss-640.png,
-                  images/youMeWebsiteBliss-1280.png 2x">
-        <img
-          class="hero-image"
-          src="images/youMeWebsiteBliss-640.png"
-          alt="You + Me = Website Bliss"
-          width="640"
-          height="467">
-      </picture>
-      <!-- <img
-        class="hero-image"
-        srcset="images/youMeWebsiteBliss-640.png 640w,
-                images/youMeWebsiteBliss-1280.png 1280w"
-        sizes="(min-width: 640px) 640px, 100vw"
-        src="images/youMeWebsiteBliss-640.png"
-        alt="You + Me = Website Bliss"
-        width="640"
-        height="467"> -->
+      <style>
+        .image1 { padding-bottom: 73%; }
+        @media (max-height: 567px) {
+          .image1 { padding-bottom: 18%; }
+        }
+      </style>
+      <div class="image-container hero-image-container image1">
+        <picture>
+          <source
+            media="(max-height: 567px)"
+            data-srcset="images/youMeWebsiteBliss-wide-640.png,
+                    images/youMeWebsiteBliss-wide-1280.png 2x">
+          <source
+            data-srcset="images/youMeWebsiteBliss-640.png,
+                    images/youMeWebsiteBliss-1280.png 2x">
+          <img
+            class="hero-image lazyload"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            alt="You + Me = Website Bliss"
+            >
+          <noscript><img src="images/youMeWebsiteBliss-640.png" alt="You + Me = Website Bliss"></noscript>
+        </picture>
+      </div>
     </div>
 
     <div class="banner banner--reversed">
@@ -54,7 +53,10 @@
         <div class="grid__item grid__item--1-5">
           <div class="callout">
             <figure>
-              <img src="images/robot.png" alt="Illustration of robot" width="420" height="524">
+              <div class="image-container" style="padding-bottom: 125%;">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/robot.png" alt="Illustration of robot" width="420" height="524">
+                <noscript><img src="images/robot.png" alt="Illustration of robot"></noscript>
+              </div>
               <figcaption>Code + Technical Skills</figcaption>
             </figure>
           </div>
@@ -62,7 +64,10 @@
         --><div class="grid__item grid__item--1-5">
           <div class="callout">
             <figure>
-              <img src="images/palette.png" alt="Illustration of painter's palette" width="466" height="394">
+              <div class="image-container" style="padding-bottom: 85%;">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/palette.png" alt="Illustration of painter's palette" width="466" height="394">
+                <noscript><img src="images/palette.png" alt="Illustration of painter's palette"></noscript>
+              </div>
               <figcaption>Design + Messaging Awareness</figcaption>
             </figure>
           </div>
@@ -70,7 +75,10 @@
         --><div class="grid__item grid__item--1-5">
           <div class="callout">
             <figure>
-              <img src="images/checklist.png" alt="Illustration of to-do checklist" width="420" height="443">
+              <div class="image-container" style="padding-bottom: 105%;">
+                <img class="lazyload"  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/checklist.png" alt="Illustration of to-do checklist" width="420" height="443">
+                <noscript><img src="images/checklist.png" alt="Illustration of to-do checklist"></noscript>
+              </div>
               <figcaption>Organization Skills</figcaption>
             </figure>
           </div>
@@ -78,7 +86,10 @@
         --><div class="grid__item grid__item--1-5">
           <div class="callout">
             <figure>
-              <img src="images/minds.png" alt="Illustration of two heads sharing thoughts" width="497" height="338">
+              <div class="image-container" style="padding-bottom: 68%;">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/minds.png" alt="Illustration of two heads sharing thoughts" width="497" height="338">
+                <noscript><img src="images/minds.png" alt="Illustration of two heads sharing thoughts"></noscript>
+              </div>
               <figcaption>Communication Skills</figcaption>
             </figure>
           </div>
@@ -86,7 +97,10 @@
         --><div class="grid__item grid__item--1-5">
           <div class="callout">
             <figure>
-              <img src="images/sun.png" alt="Illustration of the Sun" width="324" height="327">
+              <div class="image-container" style="padding-bottom: 101%;">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/sun.png" alt="Illustration of the Sun" width="324" height="327">
+                <noscript><img src="images/sun.png" alt="Illustration of the Sun"></noscript>
+              </div>
               <figcaption>Sense of Humor</figcaption>
             </figure>
           </div>
@@ -101,20 +115,23 @@
     </div>
   </section>
 
-  <section class="section text-center">
+  <section class="section text-center" id="testimonials">
     <div class="site-width">
-      <img
-        class="hero-image"
-        srcset="images/testimonials-640.png 640w,
-                images/testimonials-1280.png 1280w"
-        sizes="(min-width: 640px) 640px, 100vw"
-        src="images/testimonials-640.png"
-        alt="Testimonials"
-        width="640"
-        height="312"
-        >
+      <div class="image-container hero-image-container" style="padding-bottom:49%;">
+        <img
+          class="hero-image lazyload"
+          data-srcset="images/testimonials-640.png 640w,
+                  images/testimonials-1280.png 1280w"
+          data-sizes="(min-width: 640px) 640px, 100vw"
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          alt="Testimonials"
+          width="640"
+          height="312"
+          >
+        <noscript><img src="images/textimonials-640.png" alt="Testimonials"></noscript>
+      </div>
 
-      <p>Thought: reading testimonials is an attempt to predict the future by looking at the past… so <b>why not write a “testimonial from the future” <em>before</em> we work together?</b> Then share it with me so we’re on the same page about what a successful outcome will be. Here are a few ideas to get you started (from actual clients).</p>
+      <p>Every client has different priorities. To give me an idea of yours, why not go ahead and <b>write the ecstatic testimonial you’d like to be able to give after our upcoming collaboration?</b> Then share it with me so we’re on the same page about what a successful outcome will be. Here are a few ideas to get you started (from actual clients).</p>
     </div>
 
     <div class="banner banner--reversed">
@@ -175,7 +192,7 @@
       <ul class="unlist">
         <li><b>Technical consultant</b>: how hard/expensive is it to collaborate on XYZ? What tools are&nbsp;available?</li>
         <li><b>Process consultant</b>: how can we structure our web project process to make it better for&nbsp;everyone?</li>
-        <li><b>Design extrapolator</b>: I can take existing materials and extend the look and feel into new website elements.</li>
+        <li><b>Design extrapolator</b>: taking existing materials and extending the look and feel into new website elements.</li>
         <li><b>Front-end developer</b>: creating all the html/CSS/JavaScript to make the website function beautifully in&nbsp;a&nbsp;browser.</li>
         <li><b>Design/brand/messaging oversight</b>: helping to ensure an appropriate and consistent tone in look, content, and behaviors.</li>
         <li><b>Third-party tools integrator</b>: add ecommerce, email lists, e-whatever using appropriate&nbsp;services.</li>

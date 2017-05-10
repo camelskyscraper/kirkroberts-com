@@ -119,11 +119,11 @@ blockquote {
 figcaption {
   font-size: 0.9em;
   font-style: italic;
-  line-height: 1.2;
+  line-height: 1.5;
+  margin-top: 1em;
 
   @media (min-width: $sidebar-breakpoint) {
     font-size: 1em;
-    line-height: 1.5;
   }
 }
 

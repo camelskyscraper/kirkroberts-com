@@ -9,3 +9,48 @@ figure {
 
 }
 
+.image-constrainer {
+  // apply styles inline for particular image
+  // used for "floating" inline images
+}
+
+.image-container {
+  background: url(../images/loading-spinner.gif) no-repeat center center;
+  height: 0;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.hero-image-container {
+  margin-bottom: 2em;
+  margin-top: 2em;
+
+  @media (min-width: $sidebar-breakpoint) {
+    margin-bottom: 4em;
+    margin-top: 4em;
+  }
+}
+
+.hero-image {
+  left: -2px;
+}
+
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+// ALL lazyloaded images MUST have <noscript> fallbacks!
+.no-js .lazyload {
+  display: none;
+}

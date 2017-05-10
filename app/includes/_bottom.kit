@@ -1,11 +1,19 @@
       <footer class="site-footer text-center">
-        <img src="/images/robotLove.png" height="73" width="100" alt="Illustration of robot head and heart" title="I. Am. A. Robot. <bleep!> With. Feelings.">
+        <div class="image-constrainer" style="max-width: 100px; margin: 0 auto;">
+          <div class="image-container" style="padding-bottom: 73%;">
+            <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/robotLove.png" height="73" width="100" alt="Illustration of robot head and heart" title="I. Am. A. Robot. <bleep!> With. Feelings.">
+            <noscript><img src="/images/robotLove.png" alt="Illustration of robot head and heart"></noscript>
+          </div>
+        </div>
       </footer>
 
     </div>
 
     <!-- @include _sidebar.kit -->
 
+    <script>
+      document.body.parentNode.classList.remove("no-js");
+    </script>
     <script src="/js/scripts.js"></script>
 
     <!-- google analytics -->

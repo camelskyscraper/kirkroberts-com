@@ -96,41 +96,23 @@
 		"oAP": "\/dist\/audio\/KirkRobertsThemeSong_cbr.mp3",
 		"oF": 0
 		},
-	"\/app\/bower_components\/normalize-css\/.bower.json": {
+	"\/app\/bower_components\/lazysizes\/.bower.json": {
 		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-css\/.bower.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/.bower.json",
+		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/app\/bower_components\/normalize-css\/.editorconfig": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-css\/.editorconfig",
-		"oF": 1
-		},
-	"\/app\/bower_components\/normalize-css\/.gitignore": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-css\/.gitignore",
-		"oF": 1
-		},
-	"\/app\/bower_components\/normalize-css\/.travis.yml": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-css\/.travis.yml",
-		"oF": 1
-		},
-	"\/app\/bower_components\/normalize-css\/bower.json": {
+	"\/app\/bower_components\/lazysizes\/bower.json": {
 		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-css\/bower.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/bower.json",
+		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/app\/bower_components\/normalize-css\/LICENSE.md": {
+	"\/app\/bower_components\/lazysizes\/CHANGELOG.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -138,9 +120,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-css\/LICENSE.md",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/CHANGELOG.md",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -148,96 +130,67 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/app\/bower_components\/normalize-css\/normalize.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-css\/normalize.css",
-		"oF": 1,
-		"oS": 0
+	"\/app\/bower_components\/lazysizes\/lazysizes-umd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/lazysizes-umd.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
-	"\/app\/bower_components\/normalize-strings\/.bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/.bower.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
+	"\/app\/bower_components\/lazysizes\/lazysizes-umd.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/lazysizes-umd.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
-	"\/app\/bower_components\/normalize-strings\/.gitignore": {
+	"\/app\/bower_components\/lazysizes\/lazysizes.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/lazysizes\/lazysizes.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/lazysizes.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/lazysizes.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/LICENSE": {
 		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/.gitignore",
-		"oF": 1
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/LICENSE",
+		"oF": 0
 		},
-	"\/app\/bower_components\/normalize-strings\/.travis.yml": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/.travis.yml",
-		"oF": 1
-		},
-	"\/app\/bower_components\/normalize-strings\/bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/bower.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/app\/bower_components\/normalize-strings\/charmap.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/charmap.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/app\/bower_components\/normalize-strings\/component.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/component.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/app\/bower_components\/normalize-strings\/index.js": {
+	"\/app\/bower_components\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/index.js",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.js",
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/bower_components\/normalize-strings\/normalize.js": {
+	"\/app\/bower_components\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/normalize.js",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.min.js",
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/bower_components\/normalize-strings\/normalize.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/normalize.min.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/app\/bower_components\/normalize-strings\/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/package.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/app\/bower_components\/normalize-strings\/README.md": {
+	"\/app\/bower_components\/lazysizes\/plugins\/aspectratio\/README.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -245,9 +198,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/README.md",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/aspectratio\/README.md",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -255,32 +208,665 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/app\/bower_components\/normalize-strings\/supported.js": {
+	"\/app\/bower_components\/lazysizes\/plugins\/attrchange\/ls.attrchange.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/supported.js",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/attrchange\/ls.attrchange.js",
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/bower_components\/normalize-strings\/test\/normalize.test.js": {
+	"\/app\/bower_components\/lazysizes\/plugins\/attrchange\/ls.attrchange.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/test\/normalize.test.js",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/attrchange\/ls.attrchange.min.js",
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/bower_components\/normalize-strings\/util\/getCharMap.js": {
+	"\/app\/bower_components\/lazysizes\/plugins\/attrchange\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/attrchange\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/bgset\/ls.bgset.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/bower_components\/normalize-strings\/util\/getCharMap.js",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/bgset\/ls.bgset.js",
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/bgset\/ls.bgset.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/bgset\/ls.bgset.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/bgset\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/bgset\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/custommedia\/ls.custommedia.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/custommedia\/ls.custommedia.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/custommedia\/ls.custommedia.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/custommedia\/ls.custommedia.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/custommedia\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/custommedia\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/fix-ios-sizes\/fix-ios-sizes.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/fix-ios-sizes\/fix-ios-sizes.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/fix-ios-sizes\/fix-ios-sizes.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/fix-ios-sizes\/fix-ios-sizes.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/include\/ls.include.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/include\/ls.include.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/include\/ls.include.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/include\/ls.include.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/include\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/include\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/noscript\/ls.noscript.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/noscript\/ls.noscript.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/noscript\/ls.noscript.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/noscript\/ls.noscript.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/noscript\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/noscript\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/object-fit\/ls.object-fit.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/object-fit\/ls.object-fit.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/object-fit\/ls.object-fit.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/object-fit\/ls.object-fit.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/object-fit\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/object-fit\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/optimumx\/ls.optimumx.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/optimumx\/ls.optimumx.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/optimumx\/ls.optimumx.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/optimumx\/ls.optimumx.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/optimumx\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/optimumx\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/parent-fit\/ls.parent-fit.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/parent-fit\/ls.parent-fit.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/parent-fit\/ls.parent-fit.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/parent-fit\/ls.parent-fit.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/parent-fit\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/parent-fit\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/print\/ls.print.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/print\/ls.print.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/print\/ls.print.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/print\/ls.print.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/print\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/print\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/progressive\/ls.progressive.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/progressive\/ls.progressive.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/progressive\/ls.progressive.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/progressive\/ls.progressive.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/progressive\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/progressive\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/respimg\/ls.respimg.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/respimg\/ls.respimg.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/respimg\/ls.respimg.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/respimg\/ls.respimg.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/respimg\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/respimg\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/rias\/ls.rias.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/rias\/ls.rias.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/rias\/ls.rias.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/rias\/ls.rias.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/rias\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/rias\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/static-gecko-picture\/ls.static-gecko-picture.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/static-gecko-picture\/ls.static-gecko-picture.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/static-gecko-picture\/ls.static-gecko-picture.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/static-gecko-picture\/ls.static-gecko-picture.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/twitter\/ls.twitter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/twitter\/ls.twitter.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/twitter\/ls.twitter.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/twitter\/ls.twitter.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/unload\/ls.unload.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/unload\/ls.unload.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/unload\/ls.unload.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/unload\/ls.unload.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/unload\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/unload\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/unveilhooks\/ls.unveilhooks.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/unveilhooks\/ls.unveilhooks.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/unveilhooks\/ls.unveilhooks.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/unveilhooks\/ls.unveilhooks.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/unveilhooks\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/unveilhooks\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/video-embed\/ls.video-embed.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/video-embed\/ls.video-embed.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/video-embed\/ls.video-embed.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/video-embed\/ls.video-embed.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/plugins\/video-embed\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/plugins\/video-embed\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/lazysizes\/src\/common.wrapper": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/src\/common.wrapper",
+		"oF": 0
+		},
+	"\/app\/bower_components\/lazysizes\/src\/lazysizes-core.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/src\/lazysizes-core.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/src\/lazysizes-intersection.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/src\/lazysizes-intersection.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/lazysizes\/src\/umd.wrapper": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/lazysizes\/src\/umd.wrapper",
+		"oF": 0
 		},
 	"\/app\/browserconfig.xml": {
 		"ft": 8192,
@@ -360,6 +946,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/app\/images\/loading-spinner.gif": {
+		"ft": 4194304,
+		"iS": 6096,
+		"oA": 0,
+		"oAP": "\/dist\/images\/loading-spinner.gif",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/app\/images\/me.png": {
 		"ft": 32768,
@@ -603,6 +1197,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/app\/js\/_detectJS.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/dist\/js\/_detectJS.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/app\/js\/_linkHandling.js": {
 		"ft": 64,
 		"mi": 1,
@@ -629,6 +1232,62 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/app\/mailchimp-api-master\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/dist\/mailchimp-api-master\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/app\/mailchimp-api-master\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/mailchimp-api-master\/LICENSE",
+		"oF": 0
+		},
+	"\/app\/mailchimp-api-master\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/dist\/mailchimp-api-master\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/mailchimp-api-master\/src\/Batch.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/mailchimp-api-master\/src\/Batch.php",
+		"oF": 0
+		},
+	"\/app\/mailchimp-api-master\/src\/MailChimp.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/mailchimp-api-master\/src\/MailChimp.php",
+		"oF": 0
+		},
+	"\/app\/mailchimp-api-master\/src\/Webhook.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/mailchimp-api-master\/src\/Webhook.php",
+		"oF": 0
+		},
+	"\/app\/mailchimp-test.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/mailchimp-test.php",
+		"oF": 0
 		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/.gitignore": {
 		"ft": 8192,
@@ -998,19 +1657,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/scss\/_heroimage.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/dist\/css\/_heroimage.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/app\/scss\/_images.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1178,6 +1824,14 @@
 		"oA": 0,
 		"oAP": "\/dist\/website-designer.html",
 		"oF": 0
+		},
+	"\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/dist\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/dist": {
 		"ft": 65536,
@@ -1410,7 +2064,7 @@
 	"displayValue": "Kirk Roberts",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-drunkArcher",
-	"lastBuiltDate": 515345210
+	"lastBuiltDate": 516122638
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1658,7 +2312,7 @@
 		},
 	"babelPresetType": 193,
 	"babelRetainLines": 0,
-	"bowerAbbreviatedPath": "bower_components",
+	"bowerAbbreviatedPath": "app\/bower_components",
 	"bowerAutoCreateInfoFile": 1,
 	"bowerInstallDevDependencies": 0,
 	"bowerSaveDependencies": 1,
