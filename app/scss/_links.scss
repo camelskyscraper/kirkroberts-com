@@ -1,21 +1,23 @@
-a {
-  background: #333;
-  color: $white;
-  cursor: pointer;
-  margin: 0 -5px;
-  padding: 3px 5px;
-  text-decoration: underline;
-  transition: 0.1s all;
-
-  [class$="--reversed"] & {
-    background: #ccc;
-    color: $black;
-  }
-
-  &:hover,
-  [class$="--reversed"] &:hover {
-    background: #0a9e0e;
+p, li, blockquote {
+  a {
+    background: #333;
     color: $white;
-    text-decoration: none;
+    cursor: pointer;
+    margin: 0 -5px;
+    padding: 3px 5px;
+    text-decoration: underline;
+    transition: 0.1s all;
+
+    [class$="--reversed"] & {
+      background: #ccc;
+      color: $black;
+    }
+
+    &:hover,
+    [class$="--reversed"] &:hover {
+      background: #0a9e0e;
+      color: $white;
+      text-decoration: none;
+    }
   }
 }

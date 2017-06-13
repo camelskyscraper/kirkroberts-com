@@ -936,6 +936,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/images\/icon-linkedin.png": {
+		"ft": 32768,
+		"iS": 1746,
+		"oA": 0,
+		"oAP": "\/dist\/images\/icon-linkedin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/images\/lightbulb.png": {
 		"ft": 32768,
 		"iS": 36889,
@@ -1233,62 +1244,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/mailchimp-api-master\/composer.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/dist\/mailchimp-api-master\/composer-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/app\/mailchimp-api-master\/LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/mailchimp-api-master\/LICENSE",
-		"oF": 0
-		},
-	"\/app\/mailchimp-api-master\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/dist\/mailchimp-api-master\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/app\/mailchimp-api-master\/src\/Batch.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/mailchimp-api-master\/src\/Batch.php",
-		"oF": 0
-		},
-	"\/app\/mailchimp-api-master\/src\/MailChimp.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/mailchimp-api-master\/src\/MailChimp.php",
-		"oF": 0
-		},
-	"\/app\/mailchimp-api-master\/src\/Webhook.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/mailchimp-api-master\/src\/Webhook.php",
-		"oF": 0
-		},
-	"\/app\/mailchimp-test.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/mailchimp-test.php",
-		"oF": 0
-		},
 	"\/app\/mailchimp\/templates\/email-blueprints-master\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -1585,9 +1540,9 @@
 		},
 	"\/app\/manifest.json": {
 		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/dist\/manifest-min.json",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/dist\/manifest.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
@@ -2064,7 +2019,7 @@
 	"displayValue": "Kirk Roberts",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-drunkArcher",
-	"lastBuiltDate": 516126945
+	"lastBuiltDate": 519063458
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
