@@ -12,48 +12,120 @@
   <div class="site-width rich-text text-center">
     <p>This is what would play at the beginning of my television show, which obviously would be created using clay-mation.</p>
 
-    <audio controls id="audio-player">
-      <source src="audio/KirkRobertsThemeSong_cbr.mp3" type="audio/mp3">
-      <source src="audio/KirkRobertsThemeSong.ogg" type="audio/ogg">
-      <p>Your browser doesn't support HTML5 audio. Here is a <a href="audio/KirkRobertsThemeSong_cbr.mp3">link to the audio</a> instead.</p>
+    <audio controls id="js-audio-player" class="audio-player">
+      <source src="/audio/KirkRobertsThemeSong_cbr.mp3" type="audio/mp3">
+      <source src="/audio/KirkRobertsThemeSong.ogg" type="audio/ogg">
+      <p>Your browser doesn't support HTML5 audio. Here is a <a href="/audio/KirkRobertsThemeSong_cbr.mp3">link to the audio</a> instead.</p>
     </audio>
 
-    <div id="audio-controller" style="border: 1px solid black">
+    <a id="js-audio-toggle" class="audio-toggle play" onclick="toggleAudio();return false;" href="#" title="Play audio">Play audio</a>
+    <div id="js-audio-display">&nbsp;</div>
+    <p><a id="js-audio-restart" class="audio-restart invisible" href="#" onclick="restartAudio();return false;">restart</a></p>
+
+    <!-- <div id="audio-controller" style="border: 1px solid black">
       <button id="pButton" class="play" onclick="playAudio()"></button>
       <div id="timeline">
         <div id="playhead"></div>
       </div>
       <div id="volume_control">
         <label id="rngVolume_label" for="rngVolume">Volume:</label>
-        <input type="range" onchange="setVolume(this.value)" id="rngVolume" min="0" max="1" step="0.01" value="1">
+        <input type="range" oninput="setVolume(this.value)" id="rngVolume" min="0" max="1" step="0.01" value=".6">
       </div>
-    </div>
+    </div> -->
 
     <script>
-      var music = document.getElementById('audio-player');
-      var pButton = document.getElementById('pButton');
 
-      function playAudio() {
+      function toggleAudio() {
         if (music.paused) {
-          music.play();
-          pButton.className = "";
-          pButton.className = "pause";
+          playAudio();
         } else {
-          music.pause();
-          pButton.className = "";
-          pButton.className = "play";
+          pauseAudio();
         }
       }
+
+      function playAudio() {
+        music.play();
+        pButton.src = "/images/audio-pause.png";
+        pButton.classList.remove("play");
+        pButton.classList.add("pause");
+        pButton.title = "Pause audio";
+        pRestart.classList.remove("invisible");
+        displayInterval = setInterval(updateDisplay, 1000);
+      }
+
+      function pauseAudio() {
+        music.pause();
+        pButton.src = "/images/audio-play.png";
+        pButton.classList.remove("pause");
+        pButton.classList.add("play");
+        pButton.title = "Play audio";
+        clearInterval(displayInterval);
+      }
+
+      function restartAudio() {
+        if (music.currentTime > 0) {
+          music.currentTime = 0;
+          playAudio();
+        }
+      }
+
+      function updateDisplay() {
+        // console.log('counting');
+        pDisplay.innerHTML = formatTime(music.currentTime) + " / " + formatTime(music.duration);
+      }
+
+      function formatTime(seconds) {
+        seconds = Math.floor(seconds);
+        var minutesDisplay = Math.floor(seconds / 60);
+        var secondsDisplay = seconds % 60;
+        if (secondsDisplay < 10) secondsDisplay = "0" + secondsDisplay;
+        return minutesDisplay + ":" + secondsDisplay;
+      }
+
+      // function setVolume(value) {
+      //   music.volume = value;
+      // }
+
+      var music = document.getElementById('js-audio-player');
+      var pButton = document.getElementById('js-audio-toggle');
+      var pDisplay = document.getElementById('js-audio-display');
+      var pRestart = document.getElementById('js-audio-restart');
+
+      music.volume = .6; // set initial volume
+      music.ondurationchange = updateDisplay;
+      // music.ontimeupdate = updateDisplay;
+      music.onended = pauseAudio;
+
     </script>
     <style>
 
-      .play,
-      .pause {
-        background: red;
-        border: 0;
-        border-radius: 50%;
-        height: 30px;
-        width: 30px;
+      .audio-restart {
+        transition: opacity 1s;
+        opacity: 1;
+      }
+      .invisible {
+        cursor: default;
+        opacity: 0;
+      }
+      .audio-player {
+        display: none;
+      }
+      .audio-toggle {
+        background: url(/images/audio-play-pause.png) no-repeat 0 0;
+        background-size: 200px 200px;
+        display: inline-block;
+        height: 100px;
+        text-indent: -9999px;
+        width: 100px;
+      }
+      .audio-toggle:hover {
+        background-position: 0 -100px;
+      }
+      .audio-toggle.pause {
+        background-position: -100px 0;
+      }
+      .audio-toggle.pause:hover {
+        background-position: -100px -100px;
       }
 
     </style>

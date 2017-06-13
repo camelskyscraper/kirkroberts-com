@@ -33,6 +33,7 @@
   ],
   "private": true,
   "dependencies": {
-    "lazysizes": "^3.0.0"
+    "lazysizes": "^3.0.0",
+    "ie-classlist": "^1.1.20170427"
   }
 }

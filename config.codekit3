@@ -96,6 +96,122 @@
 		"oAP": "\/dist\/audio\/KirkRobertsThemeSong_cbr.mp3",
 		"oF": 0
 		},
+	"\/app\/bower_components\/ie-classlist\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/app\/bower_components\/ie-classlist\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/.travis.yml",
+		"oF": 0
+		},
+	"\/app\/bower_components\/ie-classlist\/classList.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/classList.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/ie-classlist\/classList.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/classList.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/ie-classlist\/LICENSE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/LICENSE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/ie-classlist\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/app\/bower_components\/ie-classlist\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/app\/bower_components\/ie-classlist\/script\/test": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/script\/test",
+		"oF": 0
+		},
+	"\/app\/bower_components\/ie-classlist\/tests\/qunit.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/tests\/qunit.html",
+		"oF": 0
+		},
+	"\/app\/bower_components\/ie-classlist\/tests\/remove.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/tests\/remove.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/bower_components\/ie-classlist\/tests\/runner.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/tests\/runner.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1
+		},
+	"\/app\/bower_components\/ie-classlist\/tests\/tests.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/dist\/bower_components\/ie-classlist\/tests\/tests.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/app\/bower_components\/lazysizes\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -913,6 +1029,39 @@
 		"oA": 0,
 		"oAP": "\/dist\/flexible-retainer.html",
 		"oF": 0
+		},
+	"\/app\/images\/audio-pause.png": {
+		"ft": 32768,
+		"iS": 9700,
+		"oA": 0,
+		"oAP": "\/dist\/images\/audio-pause.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/audio-play-pause.png": {
+		"ft": 32768,
+		"iS": 27333,
+		"oA": 0,
+		"oAP": "\/dist\/images\/audio-play-pause.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/audio-play.png": {
+		"ft": 32768,
+		"iS": 7492,
+		"oA": 0,
+		"oAP": "\/dist\/images\/audio-play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/app\/images\/checklist.png": {
 		"ft": 32768,
