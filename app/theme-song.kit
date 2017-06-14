@@ -45,7 +45,6 @@
 
       function playAudio() {
         music.play();
-        pButton.src = "/images/audio-pause.png";
         pButton.classList.remove("play");
         pButton.classList.add("pause");
         pButton.title = "Pause audio";
@@ -55,7 +54,6 @@
 
       function pauseAudio() {
         music.pause();
-        pButton.src = "/images/audio-play.png";
         pButton.classList.remove("pause");
         pButton.classList.add("play");
         pButton.title = "Play audio";
@@ -65,6 +63,7 @@
       function restartAudio() {
         if (music.currentTime > 0) {
           music.currentTime = 0;
+          updateDisplay();
           playAudio();
         }
       }
@@ -117,6 +116,7 @@
         height: 100px;
         text-indent: -9999px;
         width: 100px;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
       }
       .audio-toggle:hover {
         background-position: 0 -100px;
@@ -126,6 +126,9 @@
       }
       .audio-toggle.pause:hover {
         background-position: -100px -100px;
+      }
+      .audio-toggle:active {
+        transform: scale(.9);
       }
 
     </style>
